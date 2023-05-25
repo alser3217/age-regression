@@ -1,681 +1,1701 @@
-2023-05-25 16:20:46,031 INFO 
+2023-05-25 18:47:43,406 INFO 
 
-2023-05-25 16:20:46,031 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:43,406 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:46,195 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9218520717794458), ('l2', 1.934670487758469)])})
-2023-05-25 16:20:46,196 INFO validation fold: 0, mae: 0.9218520717794458
-2023-05-25 16:20:46,196 INFO 
+2023-05-25 18:47:43,461 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:43,462 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:43,462 INFO 
 
-2023-05-25 16:20:46,196 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:43,462 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:46,327 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7461913943374102), ('l2', 1.3789740211727755)])})
-2023-05-25 16:20:46,327 INFO validation fold: 1, mae: 0.7461913943374102
-2023-05-25 16:20:46,328 INFO 
+2023-05-25 18:47:43,548 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:43,548 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:43,548 INFO 
 
-2023-05-25 16:20:46,328 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:43,548 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:46,458 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.918033494254789), ('l2', 1.9900132698527235)])})
-2023-05-25 16:20:46,459 INFO validation fold: 2, mae: 0.918033494254789
-2023-05-25 16:20:46,459 INFO 
+2023-05-25 18:47:43,599 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:43,600 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:43,600 INFO 
 
-2023-05-25 16:20:46,459 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:43,600 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:46,588 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.6922050453695421), ('l2', 1.1258060376712273)])})
-2023-05-25 16:20:46,588 INFO validation fold: 3, mae: 0.6922050453695421
-2023-05-25 16:20:46,589 INFO 
+2023-05-25 18:47:43,644 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:43,644 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:43,645 INFO 
 
-2023-05-25 16:20:46,589 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:43,645 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:46,721 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9682002236898504), ('l2', 1.8118614636433055)])})
-2023-05-25 16:20:46,721 INFO validation fold: 4, mae: 0.9682002236898504
-2023-05-25 16:20:46,721 INFO 
+2023-05-25 18:47:43,707 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:43,707 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:43,708 INFO 
 
-2023-05-25 16:20:46,721 INFO ---Finished training---
-2023-05-25 16:20:46,722 INFO Mean of mae over all folds: 0.8492964458862075
-2023-05-25 16:20:46,723 INFO 
+2023-05-25 18:47:43,708 INFO ---Finished training---
+2023-05-25 18:47:43,708 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:43,709 INFO 
 
-2023-05-25 16:20:46,723 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:43,709 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:46,845 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9527888440967093), ('l2', 1.930879619468356)])})
-2023-05-25 16:20:46,845 INFO validation fold: 0, mae: 0.9527888440967093
-2023-05-25 16:20:46,845 INFO 
+2023-05-25 18:47:43,755 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:43,755 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:43,755 INFO 
 
-2023-05-25 16:20:46,845 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:43,755 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:46,964 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7961739911664474), ('l2', 1.4499213039651015)])})
-2023-05-25 16:20:46,968 INFO validation fold: 1, mae: 0.7961739911664474
-2023-05-25 16:20:46,969 INFO 
+2023-05-25 18:47:43,805 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:43,805 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:43,805 INFO 
 
-2023-05-25 16:20:46,970 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:43,805 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:47,089 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.943754806479092), ('l2', 2.054105159126731)])})
-2023-05-25 16:20:47,089 INFO validation fold: 2, mae: 0.943754806479092
-2023-05-25 16:20:47,089 INFO 
+2023-05-25 18:47:43,851 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:43,851 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:43,852 INFO 
 
-2023-05-25 16:20:47,089 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:43,852 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:47,216 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.6817644189404258), ('l2', 1.1072468381358112)])})
-2023-05-25 16:20:47,217 INFO validation fold: 3, mae: 0.6817644189404258
-2023-05-25 16:20:47,217 INFO 
+2023-05-25 18:47:43,897 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:43,897 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:43,897 INFO 
 
-2023-05-25 16:20:47,217 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:43,897 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:47,340 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9721690592953544), ('l2', 1.7424375104761334)])})
-2023-05-25 16:20:47,340 INFO validation fold: 4, mae: 0.9721690592953544
-2023-05-25 16:20:47,340 INFO 
+2023-05-25 18:47:43,940 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:43,940 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:43,942 INFO 
 
-2023-05-25 16:20:47,341 INFO ---Finished training---
-2023-05-25 16:20:47,341 INFO Mean of mae over all folds: 0.8693302239956058
-2023-05-25 16:20:47,342 INFO 
+2023-05-25 18:47:43,943 INFO ---Finished training---
+2023-05-25 18:47:43,943 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:43,945 INFO 
 
-2023-05-25 16:20:47,342 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:43,945 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:47,415 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9583668293444814), ('l2', 1.9767664832637315)])})
-2023-05-25 16:20:47,416 INFO validation fold: 0, mae: 0.9583668293444814
-2023-05-25 16:20:47,416 INFO 
+2023-05-25 18:47:43,981 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:43,981 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:43,981 INFO 
 
-2023-05-25 16:20:47,416 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:43,982 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:47,486 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7794968431555582), ('l2', 1.4513318001204736)])})
-2023-05-25 16:20:47,486 INFO validation fold: 1, mae: 0.7794968431555582
-2023-05-25 16:20:47,487 INFO 
+2023-05-25 18:47:44,015 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:44,015 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:44,015 INFO 
 
-2023-05-25 16:20:47,487 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:44,016 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:47,558 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9263760526975509), ('l2', 1.9483694164498475)])})
-2023-05-25 16:20:47,559 INFO validation fold: 2, mae: 0.9263760526975509
-2023-05-25 16:20:47,559 INFO 
+2023-05-25 18:47:44,050 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:44,050 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:44,051 INFO 
 
-2023-05-25 16:20:47,559 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:44,051 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:47,633 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7487970268415485), ('l2', 1.2384448122074372)])})
-2023-05-25 16:20:47,634 INFO validation fold: 3, mae: 0.7487970268415485
-2023-05-25 16:20:47,634 INFO 
+2023-05-25 18:47:44,087 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:44,087 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:44,087 INFO 
 
-2023-05-25 16:20:47,634 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:44,088 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:47,704 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9605076859225955), ('l2', 1.7742003990226365)])})
-2023-05-25 16:20:47,704 INFO validation fold: 4, mae: 0.9605076859225955
-2023-05-25 16:20:47,704 INFO 
+2023-05-25 18:47:44,121 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:44,121 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:44,121 INFO 
 
-2023-05-25 16:20:47,704 INFO ---Finished training---
-2023-05-25 16:20:47,704 INFO Mean of mae over all folds: 0.8747088875923469
-2023-05-25 16:20:47,705 INFO 
+2023-05-25 18:47:44,122 INFO ---Finished training---
+2023-05-25 18:47:44,122 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:44,123 INFO 
 
-2023-05-25 16:20:47,705 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:44,123 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:47,893 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.936487832990396), ('l2', 1.925990717807017)])})
-2023-05-25 16:20:47,894 INFO validation fold: 0, mae: 0.936487832990396
-2023-05-25 16:20:47,894 INFO 
+2023-05-25 18:47:44,173 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:44,173 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:44,173 INFO 
 
-2023-05-25 16:20:47,894 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:44,173 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:48,075 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7588357242061643), ('l2', 1.4464540905777614)])})
-2023-05-25 16:20:48,076 INFO validation fold: 1, mae: 0.7588357242061643
-2023-05-25 16:20:48,076 INFO 
+2023-05-25 18:47:44,222 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:44,222 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:44,222 INFO 
 
-2023-05-25 16:20:48,076 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:44,222 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:48,258 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9166600187196215), ('l2', 1.9954238087570044)])})
-2023-05-25 16:20:48,258 INFO validation fold: 2, mae: 0.9166600187196215
-2023-05-25 16:20:48,259 INFO 
+2023-05-25 18:47:44,273 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:44,274 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:44,274 INFO 
 
-2023-05-25 16:20:48,259 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:44,274 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:48,442 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7291456663363413), ('l2', 1.2022554212968766)])})
-2023-05-25 16:20:48,442 INFO validation fold: 3, mae: 0.7291456663363413
-2023-05-25 16:20:48,443 INFO 
+2023-05-25 18:47:44,320 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:44,321 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:44,321 INFO 
 
-2023-05-25 16:20:48,443 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:44,321 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:48,623 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.982180905673435), ('l2', 1.7944814176476462)])})
-2023-05-25 16:20:48,623 INFO validation fold: 4, mae: 0.982180905673435
-2023-05-25 16:20:48,623 INFO 
+2023-05-25 18:47:44,370 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:44,370 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:44,370 INFO 
 
-2023-05-25 16:20:48,624 INFO ---Finished training---
-2023-05-25 16:20:48,624 INFO Mean of mae over all folds: 0.8646620295851916
-2023-05-25 16:20:48,625 INFO 
+2023-05-25 18:47:44,370 INFO ---Finished training---
+2023-05-25 18:47:44,371 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:44,372 INFO 
 
-2023-05-25 16:20:48,625 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:44,372 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:48,742 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9949025389309942), ('l2', 2.108260113223686)])})
-2023-05-25 16:20:48,743 INFO validation fold: 0, mae: 0.9949025389309942
-2023-05-25 16:20:48,743 INFO 
+2023-05-25 18:47:44,402 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:44,403 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:44,403 INFO 
 
-2023-05-25 16:20:48,743 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:44,403 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:48,858 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7760000526323054), ('l2', 1.3675460405363036)])})
-2023-05-25 16:20:48,858 INFO validation fold: 1, mae: 0.7760000526323054
-2023-05-25 16:20:48,858 INFO 
+2023-05-25 18:47:44,432 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:44,432 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:44,433 INFO 
 
-2023-05-25 16:20:48,858 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:44,433 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:48,979 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.937773480428116), ('l2', 2.0165112800079577)])})
-2023-05-25 16:20:48,979 INFO validation fold: 2, mae: 0.937773480428116
-2023-05-25 16:20:48,979 INFO 
+2023-05-25 18:47:44,461 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:44,462 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:44,462 INFO 
 
-2023-05-25 16:20:48,980 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:44,462 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:49,095 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.734325494423092), ('l2', 1.1754612048523407)])})
-2023-05-25 16:20:49,095 INFO validation fold: 3, mae: 0.734325494423092
-2023-05-25 16:20:49,095 INFO 
+2023-05-25 18:47:44,493 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:44,493 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:44,493 INFO 
 
-2023-05-25 16:20:49,095 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:44,493 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:49,213 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9989540835537902), ('l2', 1.8547240282615578)])})
-2023-05-25 16:20:49,214 INFO validation fold: 4, mae: 0.9989540835537902
-2023-05-25 16:20:49,214 INFO 
+2023-05-25 18:47:44,532 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:44,532 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:44,532 INFO 
 
-2023-05-25 16:20:49,214 INFO ---Finished training---
-2023-05-25 16:20:49,214 INFO Mean of mae over all folds: 0.8883911299936595
-2023-05-25 16:20:49,215 INFO 
+2023-05-25 18:47:44,533 INFO ---Finished training---
+2023-05-25 18:47:44,533 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:44,534 INFO 
 
-2023-05-25 16:20:49,216 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:44,534 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:49,250 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8712526800995127), ('l2', 1.9386618236937532)])})
-2023-05-25 16:20:49,250 INFO validation fold: 0, mae: 0.8712526800995127
-2023-05-25 16:20:49,250 INFO 
+2023-05-25 18:47:44,574 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:44,574 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:44,575 INFO 
 
-2023-05-25 16:20:49,250 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:44,575 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:49,283 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7755855948310568), ('l2', 1.5584158091214042)])})
-2023-05-25 16:20:49,283 INFO validation fold: 1, mae: 0.7755855948310568
-2023-05-25 16:20:49,283 INFO 
+2023-05-25 18:47:44,615 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:44,617 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:44,617 INFO 
 
-2023-05-25 16:20:49,283 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:44,617 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:49,320 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8488162395998957), ('l2', 1.9730671808559581)])})
-2023-05-25 16:20:49,320 INFO validation fold: 2, mae: 0.8488162395998957
-2023-05-25 16:20:49,320 INFO 
+2023-05-25 18:47:44,660 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:44,660 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:44,660 INFO 
 
-2023-05-25 16:20:49,321 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:44,660 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:49,352 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.6017856479871974), ('l2', 0.956014182114725)])})
-2023-05-25 16:20:49,352 INFO validation fold: 3, mae: 0.6017856479871974
-2023-05-25 16:20:49,352 INFO 
+2023-05-25 18:47:44,702 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:44,702 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:44,702 INFO 
 
-2023-05-25 16:20:49,352 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:44,702 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:49,383 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9414067057355684), ('l2', 1.8888959680127126)])})
-2023-05-25 16:20:49,384 INFO validation fold: 4, mae: 0.9414067057355684
-2023-05-25 16:20:49,384 INFO 
+2023-05-25 18:47:44,741 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:44,742 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:44,742 INFO 
 
-2023-05-25 16:20:49,384 INFO ---Finished training---
-2023-05-25 16:20:49,384 INFO Mean of mae over all folds: 0.8077693736506462
-2023-05-25 16:20:49,385 INFO 
+2023-05-25 18:47:44,742 INFO ---Finished training---
+2023-05-25 18:47:44,742 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:44,744 INFO 
 
-2023-05-25 16:20:49,385 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:44,744 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:49,451 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.775408642765872), ('l2', 1.9335457983469733)])})
-2023-05-25 16:20:49,451 INFO validation fold: 0, mae: 0.775408642765872
-2023-05-25 16:20:49,452 INFO 
+2023-05-25 18:47:44,789 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:44,790 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:44,790 INFO 
 
-2023-05-25 16:20:49,452 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:44,790 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:49,569 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7721948477789152), ('l2', 1.9144735654722596)])})
-2023-05-25 16:20:49,570 INFO validation fold: 1, mae: 0.7721948477789152
-2023-05-25 16:20:49,570 INFO 
+2023-05-25 18:47:44,830 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:44,831 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:44,831 INFO 
 
-2023-05-25 16:20:49,570 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:44,831 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:49,691 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8498302558272823), ('l2', 2.1724651248261178)])})
-2023-05-25 16:20:49,691 INFO validation fold: 2, mae: 0.8498302558272823
-2023-05-25 16:20:49,692 INFO 
+2023-05-25 18:47:44,872 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:44,873 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:44,873 INFO 
 
-2023-05-25 16:20:49,692 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:44,873 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:49,811 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.6409627898769907), ('l2', 1.0285318395224077)])})
-2023-05-25 16:20:49,811 INFO validation fold: 3, mae: 0.6409627898769907
-2023-05-25 16:20:49,812 INFO 
+2023-05-25 18:47:44,917 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:44,917 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:44,917 INFO 
 
-2023-05-25 16:20:49,812 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:44,917 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:49,938 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8285806291504761), ('l2', 1.8264944081675103)])})
-2023-05-25 16:20:49,939 INFO validation fold: 4, mae: 0.8285806291504761
-2023-05-25 16:20:49,939 INFO 
+2023-05-25 18:47:44,957 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:44,957 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:44,957 INFO 
 
-2023-05-25 16:20:49,939 INFO ---Finished training---
-2023-05-25 16:20:49,939 INFO Mean of mae over all folds: 0.7733954330799072
-2023-05-25 16:20:49,940 INFO 
+2023-05-25 18:47:44,957 INFO ---Finished training---
+2023-05-25 18:47:44,957 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:44,959 INFO 
 
-2023-05-25 16:20:49,941 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:44,959 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:50,120 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9531178993602031), ('l2', 1.9568287316890902)])})
-2023-05-25 16:20:50,120 INFO validation fold: 0, mae: 0.9531178993602031
-2023-05-25 16:20:50,121 INFO 
+2023-05-25 18:47:45,037 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:45,037 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:45,037 INFO 
 
-2023-05-25 16:20:50,121 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:45,037 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:50,257 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.771809513694857), ('l2', 1.341471995022264)])})
-2023-05-25 16:20:50,258 INFO validation fold: 1, mae: 0.771809513694857
-2023-05-25 16:20:50,258 INFO 
+2023-05-25 18:47:45,113 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:45,113 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:45,114 INFO 
 
-2023-05-25 16:20:50,258 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:45,114 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:50,402 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9412419377945374), ('l2', 2.0176621177658425)])})
-2023-05-25 16:20:50,402 INFO validation fold: 2, mae: 0.9412419377945374
-2023-05-25 16:20:50,403 INFO 
+2023-05-25 18:47:45,260 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:45,260 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:45,260 INFO 
 
-2023-05-25 16:20:50,403 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:45,260 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:50,549 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7690997057685349), ('l2', 1.2510273232150544)])})
-2023-05-25 16:20:50,550 INFO validation fold: 3, mae: 0.7690997057685349
-2023-05-25 16:20:50,550 INFO 
+2023-05-25 18:47:45,321 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:45,321 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:45,321 INFO 
 
-2023-05-25 16:20:50,550 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:45,321 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:50,694 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.970445205814355), ('l2', 1.828441455309083)])})
-2023-05-25 16:20:50,694 INFO validation fold: 4, mae: 0.970445205814355
-2023-05-25 16:20:50,694 INFO 
+2023-05-25 18:47:45,390 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:45,390 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:45,390 INFO 
 
-2023-05-25 16:20:50,694 INFO ---Finished training---
-2023-05-25 16:20:50,694 INFO Mean of mae over all folds: 0.8811428524864974
-2023-05-25 16:20:50,696 INFO 
+2023-05-25 18:47:45,390 INFO ---Finished training---
+2023-05-25 18:47:45,391 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:45,392 INFO 
 
-2023-05-25 16:20:50,696 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:45,392 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:50,874 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9328126211292559), ('l2', 1.9478843578519138)])})
-2023-05-25 16:20:50,874 INFO validation fold: 0, mae: 0.9328126211292559
-2023-05-25 16:20:50,875 INFO 
+2023-05-25 18:47:45,425 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:45,425 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:45,425 INFO 
 
-2023-05-25 16:20:50,875 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:45,425 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:51,054 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7444705309455202), ('l2', 1.3925736061510816)])})
-2023-05-25 16:20:51,055 INFO validation fold: 1, mae: 0.7444705309455202
-2023-05-25 16:20:51,055 INFO 
+2023-05-25 18:47:45,451 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:45,451 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:45,451 INFO 
 
-2023-05-25 16:20:51,056 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:45,451 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:51,228 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9247529336940371), ('l2', 2.0171391884130525)])})
-2023-05-25 16:20:51,229 INFO validation fold: 2, mae: 0.9247529336940371
-2023-05-25 16:20:51,229 INFO 
+2023-05-25 18:47:45,483 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:45,483 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:45,483 INFO 
 
-2023-05-25 16:20:51,229 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:45,484 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:51,405 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7083040777955546), ('l2', 1.1953839118830647)])})
-2023-05-25 16:20:51,405 INFO validation fold: 3, mae: 0.7083040777955546
-2023-05-25 16:20:51,406 INFO 
+2023-05-25 18:47:45,532 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:45,532 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:45,532 INFO 
 
-2023-05-25 16:20:51,406 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:45,532 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:51,588 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9627642761602065), ('l2', 1.7772366400569153)])})
-2023-05-25 16:20:51,588 INFO validation fold: 4, mae: 0.9627642761602065
-2023-05-25 16:20:51,588 INFO 
+2023-05-25 18:47:45,562 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:45,563 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:45,563 INFO 
 
-2023-05-25 16:20:51,589 INFO ---Finished training---
-2023-05-25 16:20:51,589 INFO Mean of mae over all folds: 0.8546208879449149
-2023-05-25 16:20:51,591 INFO 
+2023-05-25 18:47:45,563 INFO ---Finished training---
+2023-05-25 18:47:45,563 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:45,565 INFO 
 
-2023-05-25 16:20:51,591 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:45,565 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:51,612 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8190811367754857), ('l2', 2.065164497768737)])})
-2023-05-25 16:20:51,613 INFO validation fold: 0, mae: 0.8190811367754857
-2023-05-25 16:20:51,613 INFO 
+2023-05-25 18:47:45,602 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:45,602 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:45,602 INFO 
 
-2023-05-25 16:20:51,613 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:45,602 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:51,636 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8350880220817885), ('l2', 2.282230244343962)])})
-2023-05-25 16:20:51,636 INFO validation fold: 1, mae: 0.8350880220817885
-2023-05-25 16:20:51,636 INFO 
+2023-05-25 18:47:45,643 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:45,643 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:45,643 INFO 
 
-2023-05-25 16:20:51,636 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:45,643 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:51,660 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9450249502833794), ('l2', 2.56379548702656)])})
-2023-05-25 16:20:51,661 INFO validation fold: 2, mae: 0.9450249502833794
-2023-05-25 16:20:51,661 INFO 
+2023-05-25 18:47:45,681 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:45,681 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:45,681 INFO 
 
-2023-05-25 16:20:51,661 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:45,681 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:51,684 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7110885881346154), ('l2', 1.1200843460505367)])})
-2023-05-25 16:20:51,684 INFO validation fold: 3, mae: 0.7110885881346154
-2023-05-25 16:20:51,684 INFO 
+2023-05-25 18:47:45,724 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:45,724 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:45,725 INFO 
 
-2023-05-25 16:20:51,685 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:45,725 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:51,707 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.872338882692902), ('l2', 1.8163339813757446)])})
-2023-05-25 16:20:51,707 INFO validation fold: 4, mae: 0.872338882692902
-2023-05-25 16:20:51,707 INFO 
+2023-05-25 18:47:45,762 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:45,762 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:45,763 INFO 
 
-2023-05-25 16:20:51,708 INFO ---Finished training---
-2023-05-25 16:20:51,708 INFO Mean of mae over all folds: 0.8365243159936343
-2023-05-25 16:20:51,715 INFO 
+2023-05-25 18:47:45,763 INFO ---Finished training---
+2023-05-25 18:47:45,763 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:45,781 INFO 
 
-2023-05-25 16:20:51,715 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:45,781 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:51,776 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 2.731377987907675), ('l2', 12.192432001165683)])})
-2023-05-25 16:20:51,777 INFO validation fold: 0, mae: 2.731377987907675
-2023-05-25 16:20:51,777 INFO 
+2023-05-25 18:47:45,796 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:45,797 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:45,797 INFO 
 
-2023-05-25 16:20:51,777 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:45,797 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:51,839 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 3.0567097929386717), ('l2', 16.53027818268769)])})
-2023-05-25 16:20:51,840 INFO validation fold: 1, mae: 3.0567097929386717
-2023-05-25 16:20:51,840 INFO 
+2023-05-25 18:47:45,810 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:45,810 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:45,810 INFO 
 
-2023-05-25 16:20:51,840 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:45,810 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:51,903 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 2.8401281603516515), ('l2', 15.38359944223627)])})
-2023-05-25 16:20:51,903 INFO validation fold: 2, mae: 2.8401281603516515
-2023-05-25 16:20:51,903 INFO 
+2023-05-25 18:47:45,828 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:45,828 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:45,828 INFO 
 
-2023-05-25 16:20:51,904 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:45,828 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:51,966 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 2.6358308610881864), ('l2', 10.689762273858062)])})
-2023-05-25 16:20:51,970 INFO validation fold: 3, mae: 2.6358308610881864
-2023-05-25 16:20:51,971 INFO 
+2023-05-25 18:47:45,841 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:45,841 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:45,841 INFO 
 
-2023-05-25 16:20:51,971 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:45,841 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:52,038 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 2.6654141499614274), ('l2', 11.4801176129561)])})
-2023-05-25 16:20:52,038 INFO validation fold: 4, mae: 2.6654141499614274
-2023-05-25 16:20:52,039 INFO 
+2023-05-25 18:47:45,856 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:45,857 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:45,857 INFO 
 
-2023-05-25 16:20:52,039 INFO ---Finished training---
-2023-05-25 16:20:52,039 INFO Mean of mae over all folds: 2.7858921904495224
-2023-05-25 16:20:52,046 INFO 
+2023-05-25 18:47:45,857 INFO ---Finished training---
+2023-05-25 18:47:45,857 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:45,876 INFO 
 
-2023-05-25 16:20:52,046 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:45,876 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:52,072 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 15.751047291424033), ('l2', 355.1319140941494)])})
-2023-05-25 16:20:52,072 INFO validation fold: 0, mae: 15.751047291424033
-2023-05-25 16:20:52,072 INFO 
+2023-05-25 18:47:45,928 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:45,929 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:45,929 INFO 
 
-2023-05-25 16:20:52,072 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:45,929 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:52,099 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 15.944394631873626), ('l2', 377.4128281794646)])})
-2023-05-25 16:20:52,099 INFO validation fold: 1, mae: 15.944394631873626
-2023-05-25 16:20:52,099 INFO 
+2023-05-25 18:47:45,972 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:45,972 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:45,972 INFO 
 
-2023-05-25 16:20:52,100 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:45,972 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:52,126 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 15.214269097377773), ('l2', 369.2588184441771)])})
-2023-05-25 16:20:52,126 INFO validation fold: 2, mae: 15.214269097377773
-2023-05-25 16:20:52,127 INFO 
+2023-05-25 18:47:46,024 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:46,025 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:46,025 INFO 
 
-2023-05-25 16:20:52,127 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:46,025 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:52,148 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 15.29136404353814), ('l2', 338.04854645391384)])})
-2023-05-25 16:20:52,148 INFO validation fold: 3, mae: 15.29136404353814
-2023-05-25 16:20:52,148 INFO 
+2023-05-25 18:47:46,071 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:46,071 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:46,071 INFO 
 
-2023-05-25 16:20:52,148 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:46,071 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:52,172 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 15.766342962742755), ('l2', 362.88188740815184)])})
-2023-05-25 16:20:52,173 INFO validation fold: 4, mae: 15.766342962742755
-2023-05-25 16:20:52,173 INFO 
+2023-05-25 18:47:46,126 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:46,126 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:46,126 INFO 
 
-2023-05-25 16:20:52,173 INFO ---Finished training---
-2023-05-25 16:20:52,173 INFO Mean of mae over all folds: 15.593483605391265
-2023-05-25 16:20:52,180 INFO 
+2023-05-25 18:47:46,126 INFO ---Finished training---
+2023-05-25 18:47:46,126 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:46,145 INFO 
 
-2023-05-25 16:20:52,180 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:46,146 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:52,242 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8986428710916452), ('l2', 1.8226128958289372)])})
-2023-05-25 16:20:52,242 INFO validation fold: 0, mae: 0.8986428710916452
-2023-05-25 16:20:52,242 INFO 
+2023-05-25 18:47:46,189 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.646035615041185), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:46,189 INFO validation fold: 0, mae: 52.646035615041185
+2023-05-25 18:47:46,189 INFO 
 
-2023-05-25 16:20:52,242 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:46,189 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:52,300 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7882015099071163), ('l2', 1.442425571679377)])})
-2023-05-25 16:20:52,301 INFO validation fold: 1, mae: 0.7882015099071163
-2023-05-25 16:20:52,301 INFO 
+2023-05-25 18:47:46,235 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:46,235 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:46,236 INFO 
 
-2023-05-25 16:20:52,301 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:46,236 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:52,367 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9335492458056368), ('l2', 1.9986244549113243)])})
-2023-05-25 16:20:52,367 INFO validation fold: 2, mae: 0.9335492458056368
-2023-05-25 16:20:52,368 INFO 
+2023-05-25 18:47:46,282 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:46,282 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:46,282 INFO 
 
-2023-05-25 16:20:52,368 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:46,282 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:52,430 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7138875550515291), ('l2', 1.11939397328523)])})
-2023-05-25 16:20:52,431 INFO validation fold: 3, mae: 0.7138875550515291
-2023-05-25 16:20:52,431 INFO 
+2023-05-25 18:47:46,326 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:46,326 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:46,327 INFO 
 
-2023-05-25 16:20:52,431 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:46,327 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:52,492 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9642136964290395), ('l2', 1.7751180060606273)])})
-2023-05-25 16:20:52,493 INFO validation fold: 4, mae: 0.9642136964290395
-2023-05-25 16:20:52,493 INFO 
+2023-05-25 18:47:46,382 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:46,382 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:46,382 INFO 
 
-2023-05-25 16:20:52,493 INFO ---Finished training---
-2023-05-25 16:20:52,493 INFO Mean of mae over all folds: 0.8596989756569935
-2023-05-25 16:20:52,500 INFO 
+2023-05-25 18:47:46,382 INFO ---Finished training---
+2023-05-25 18:47:46,382 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:46,401 INFO 
 
-2023-05-25 16:20:52,500 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:46,402 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:52,566 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7742104763981182), ('l2', 1.9337351185743417)])})
-2023-05-25 16:20:52,567 INFO validation fold: 0, mae: 0.7742104763981182
-2023-05-25 16:20:52,567 INFO 
+2023-05-25 18:47:46,425 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.646035615041185), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:46,425 INFO validation fold: 0, mae: 52.646035615041185
+2023-05-25 18:47:46,426 INFO 
 
-2023-05-25 16:20:52,567 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:46,426 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:52,615 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7752020346409787), ('l2', 1.9549775349396035)])})
-2023-05-25 16:20:52,616 INFO validation fold: 1, mae: 0.7752020346409787
-2023-05-25 16:20:52,616 INFO 
+2023-05-25 18:47:46,447 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:46,447 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:46,447 INFO 
 
-2023-05-25 16:20:52,616 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:46,447 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:52,668 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8705791357323792), ('l2', 2.2449934287765028)])})
-2023-05-25 16:20:52,669 INFO validation fold: 2, mae: 0.8705791357323792
-2023-05-25 16:20:52,669 INFO 
+2023-05-25 18:47:46,467 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:46,467 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:46,467 INFO 
 
-2023-05-25 16:20:52,669 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:46,468 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:52,717 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.6500931623452381), ('l2', 1.041046493322195)])})
-2023-05-25 16:20:52,717 INFO validation fold: 3, mae: 0.6500931623452381
-2023-05-25 16:20:52,718 INFO 
+2023-05-25 18:47:46,486 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:46,486 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:46,486 INFO 
 
-2023-05-25 16:20:52,718 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:46,486 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:52,769 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8384276167608276), ('l2', 1.8397318366894082)])})
-2023-05-25 16:20:52,769 INFO validation fold: 4, mae: 0.8384276167608276
-2023-05-25 16:20:52,769 INFO 
+2023-05-25 18:47:46,506 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:46,507 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:46,507 INFO 
 
-2023-05-25 16:20:52,770 INFO ---Finished training---
-2023-05-25 16:20:52,770 INFO Mean of mae over all folds: 0.7817024851755084
-2023-05-25 16:20:52,777 INFO 
+2023-05-25 18:47:46,507 INFO ---Finished training---
+2023-05-25 18:47:46,507 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:46,531 INFO 
 
-2023-05-25 16:20:52,777 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:46,531 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:52,870 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8217015814104118), ('l2', 1.8234427330325695)])})
-2023-05-25 16:20:52,871 INFO validation fold: 0, mae: 0.8217015814104118
-2023-05-25 16:20:52,871 INFO 
+2023-05-25 18:47:46,578 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:46,578 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:46,579 INFO 
 
-2023-05-25 16:20:52,871 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:46,579 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:52,975 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7696551516854164), ('l2', 1.602164847038592)])})
-2023-05-25 16:20:52,975 INFO validation fold: 1, mae: 0.7696551516854164
-2023-05-25 16:20:52,976 INFO 
+2023-05-25 18:47:46,706 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:46,707 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:46,708 INFO 
 
-2023-05-25 16:20:52,976 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:46,709 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:53,070 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8231749275016184), ('l2', 1.9732446646247106)])})
-2023-05-25 16:20:53,071 INFO validation fold: 2, mae: 0.8231749275016184
-2023-05-25 16:20:53,071 INFO 
+2023-05-25 18:47:46,788 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:46,788 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:46,788 INFO 
 
-2023-05-25 16:20:53,071 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:46,788 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:53,165 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.5888891413521142), ('l2', 0.9581068996164734)])})
-2023-05-25 16:20:53,165 INFO validation fold: 3, mae: 0.5888891413521142
-2023-05-25 16:20:53,166 INFO 
+2023-05-25 18:47:46,848 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:46,849 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:46,849 INFO 
 
-2023-05-25 16:20:53,166 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:46,849 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:53,263 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9139110644326113), ('l2', 1.9187283684727647)])})
-2023-05-25 16:20:53,263 INFO validation fold: 4, mae: 0.9139110644326113
-2023-05-25 16:20:53,263 INFO 
+2023-05-25 18:47:46,888 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:46,889 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:46,889 INFO 
 
-2023-05-25 16:20:53,263 INFO ---Finished training---
-2023-05-25 16:20:53,263 INFO Mean of mae over all folds: 0.7834663732764345
-2023-05-25 16:20:53,271 INFO 
+2023-05-25 18:47:46,889 INFO ---Finished training---
+2023-05-25 18:47:46,889 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:46,908 INFO 
 
-2023-05-25 16:20:53,271 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:46,909 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:53,361 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8434787592469554), ('l2', 1.8192812260512796)])})
-2023-05-25 16:20:53,362 INFO validation fold: 0, mae: 0.8434787592469554
-2023-05-25 16:20:53,362 INFO 
+2023-05-25 18:47:46,973 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:46,973 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:46,973 INFO 
 
-2023-05-25 16:20:53,362 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:46,973 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:53,451 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7575088300699426), ('l2', 1.5395402113398189)])})
-2023-05-25 16:20:53,451 INFO validation fold: 1, mae: 0.7575088300699426
-2023-05-25 16:20:53,452 INFO 
+2023-05-25 18:47:47,032 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:47,032 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:47,032 INFO 
 
-2023-05-25 16:20:53,452 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:47,032 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:53,542 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8296468644390479), ('l2', 1.957137571776743)])})
-2023-05-25 16:20:53,542 INFO validation fold: 2, mae: 0.8296468644390479
-2023-05-25 16:20:53,543 INFO 
+2023-05-25 18:47:47,090 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:47,090 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:47,090 INFO 
 
-2023-05-25 16:20:53,543 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:47,091 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:53,631 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.6056562315681522), ('l2', 0.9778969358656823)])})
-2023-05-25 16:20:53,631 INFO validation fold: 3, mae: 0.6056562315681522
-2023-05-25 16:20:53,632 INFO 
+2023-05-25 18:47:47,143 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:47,143 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:47,143 INFO 
 
-2023-05-25 16:20:53,632 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:47,143 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:53,723 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9195187249051177), ('l2', 1.8603543357165018)])})
-2023-05-25 16:20:53,723 INFO validation fold: 4, mae: 0.9195187249051177
-2023-05-25 16:20:53,723 INFO 
+2023-05-25 18:47:47,226 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:47,227 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:47,227 INFO 
 
-2023-05-25 16:20:53,723 INFO ---Finished training---
-2023-05-25 16:20:53,723 INFO Mean of mae over all folds: 0.7911618820458431
-2023-05-25 16:20:53,731 INFO 
+2023-05-25 18:47:47,227 INFO ---Finished training---
+2023-05-25 18:47:47,227 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:47,248 INFO 
 
-2023-05-25 16:20:53,731 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:47,248 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:53,782 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 13.255569454261748), ('l2', 253.16376764877126)])})
-2023-05-25 16:20:53,782 INFO validation fold: 0, mae: 13.255569454261748
-2023-05-25 16:20:53,783 INFO 
+2023-05-25 18:47:47,293 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:47,293 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:47,293 INFO 
 
-2023-05-25 16:20:53,783 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:47,293 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:53,837 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 13.577644136203988), ('l2', 275.7857767960259)])})
-2023-05-25 16:20:53,837 INFO validation fold: 1, mae: 13.577644136203988
-2023-05-25 16:20:53,837 INFO 
+2023-05-25 18:47:47,340 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:47,340 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:47,341 INFO 
 
-2023-05-25 16:20:53,838 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:47,341 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:53,887 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 12.83944396686412), ('l2', 266.20314693236026)])})
-2023-05-25 16:20:53,887 INFO validation fold: 2, mae: 12.83944396686412
-2023-05-25 16:20:53,888 INFO 
+2023-05-25 18:47:47,391 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:47,391 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:47,391 INFO 
 
-2023-05-25 16:20:53,888 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:47,392 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:53,938 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 12.915369690983626), ('l2', 241.29055462710977)])})
-2023-05-25 16:20:53,938 INFO validation fold: 3, mae: 12.915369690983626
-2023-05-25 16:20:53,939 INFO 
+2023-05-25 18:47:47,440 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:47,440 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:47,441 INFO 
 
-2023-05-25 16:20:53,939 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:47,441 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:53,990 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 13.314676472843429), ('l2', 259.76718364934374)])})
-2023-05-25 16:20:53,990 INFO validation fold: 4, mae: 13.314676472843429
-2023-05-25 16:20:53,990 INFO 
+2023-05-25 18:47:47,488 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:47,488 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:47,488 INFO 
 
-2023-05-25 16:20:53,990 INFO ---Finished training---
-2023-05-25 16:20:53,991 INFO Mean of mae over all folds: 13.180540744231383
-2023-05-25 16:20:53,998 INFO 
+2023-05-25 18:47:47,488 INFO ---Finished training---
+2023-05-25 18:47:47,489 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:47,511 INFO 
 
-2023-05-25 16:20:53,998 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:47,511 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:54,049 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8580394740030338), ('l2', 1.861981780519006)])})
-2023-05-25 16:20:54,050 INFO validation fold: 0, mae: 0.8580394740030338
-2023-05-25 16:20:54,050 INFO 
+2023-05-25 18:47:47,553 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:47,554 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:47,554 INFO 
 
-2023-05-25 16:20:54,050 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:47,554 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:54,094 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7713017009584), ('l2', 1.5853680886806898)])})
-2023-05-25 16:20:54,095 INFO validation fold: 1, mae: 0.7713017009584
-2023-05-25 16:20:54,095 INFO 
+2023-05-25 18:47:47,586 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:47,586 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:47,586 INFO 
 
-2023-05-25 16:20:54,095 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:47,586 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:54,148 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8450596509816569), ('l2', 1.9894570733142052)])})
-2023-05-25 16:20:54,149 INFO validation fold: 2, mae: 0.8450596509816569
-2023-05-25 16:20:54,149 INFO 
+2023-05-25 18:47:47,612 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:47,613 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:47,613 INFO 
 
-2023-05-25 16:20:54,149 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:47,613 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:54,194 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.607721123588367), ('l2', 0.980815113297046)])})
-2023-05-25 16:20:54,194 INFO validation fold: 3, mae: 0.607721123588367
-2023-05-25 16:20:54,194 INFO 
+2023-05-25 18:47:47,640 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:47,640 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:47,641 INFO 
 
-2023-05-25 16:20:54,194 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:47,641 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:54,247 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9213225706721998), ('l2', 1.8546739896146411)])})
-2023-05-25 16:20:54,247 INFO validation fold: 4, mae: 0.9213225706721998
-2023-05-25 16:20:54,247 INFO 
+2023-05-25 18:47:47,673 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:47,673 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:47,673 INFO 
 
-2023-05-25 16:20:54,247 INFO ---Finished training---
-2023-05-25 16:20:54,247 INFO Mean of mae over all folds: 0.8006889040407316
-2023-05-25 16:20:54,254 INFO 
+2023-05-25 18:47:47,673 INFO ---Finished training---
+2023-05-25 18:47:47,673 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:47,698 INFO 
 
-2023-05-25 16:20:54,255 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:47,698 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:54,368 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8375226929301065), ('l2', 1.841145855758755)])})
-2023-05-25 16:20:54,369 INFO validation fold: 0, mae: 0.8375226929301065
-2023-05-25 16:20:54,369 INFO 
+2023-05-25 18:47:47,726 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:47,726 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:47,726 INFO 
 
-2023-05-25 16:20:54,369 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:47,726 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:54,463 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.736577503616711), ('l2', 1.56198213646059)])})
-2023-05-25 16:20:54,464 INFO validation fold: 1, mae: 0.736577503616711
-2023-05-25 16:20:54,464 INFO 
+2023-05-25 18:47:47,741 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:47,741 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:47,741 INFO 
 
-2023-05-25 16:20:54,464 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:47,741 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:54,563 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.8202778458740606), ('l2', 1.954683418742749)])})
-2023-05-25 16:20:54,563 INFO validation fold: 2, mae: 0.8202778458740606
-2023-05-25 16:20:54,564 INFO 
+2023-05-25 18:47:47,754 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:47,755 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:47,755 INFO 
 
-2023-05-25 16:20:54,564 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:47,755 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:54,664 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.5931230268018376), ('l2', 0.9591768571106428)])})
-2023-05-25 16:20:54,665 INFO validation fold: 3, mae: 0.5931230268018376
-2023-05-25 16:20:54,665 INFO 
+2023-05-25 18:47:47,769 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:47,773 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:47,774 INFO 
 
-2023-05-25 16:20:54,665 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:47,774 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:54,765 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9167193266702723), ('l2', 1.894391223163814)])})
-2023-05-25 16:20:54,765 INFO validation fold: 4, mae: 0.9167193266702723
-2023-05-25 16:20:54,765 INFO 
+2023-05-25 18:47:47,788 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:47,788 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:47,788 INFO 
 
-2023-05-25 16:20:54,765 INFO ---Finished training---
-2023-05-25 16:20:54,765 INFO Mean of mae over all folds: 0.7808440791785975
-2023-05-25 16:20:54,773 INFO 
+2023-05-25 18:47:47,788 INFO ---Finished training---
+2023-05-25 18:47:47,788 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:47,810 INFO 
 
-2023-05-25 16:20:54,774 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:47:47,811 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 16:20:54,957 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9577088615565931), ('l2', 1.9902478444963805)])})
-2023-05-25 16:20:54,957 INFO validation fold: 0, mae: 0.9577088615565931
-2023-05-25 16:20:54,958 INFO 
+2023-05-25 18:47:47,880 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:47,881 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:47,881 INFO 
 
-2023-05-25 16:20:54,958 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:47:47,881 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 16:20:55,159 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.7430987037175902), ('l2', 1.3365436215070072)])})
-2023-05-25 16:20:55,159 INFO validation fold: 1, mae: 0.7430987037175902
-2023-05-25 16:20:55,160 INFO 
+2023-05-25 18:47:47,930 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:47,930 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:47,930 INFO 
 
-2023-05-25 16:20:55,160 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:47:47,930 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 16:20:55,366 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9164955912154075), ('l2', 1.983802469611781)])})
-2023-05-25 16:20:55,366 INFO validation fold: 2, mae: 0.9164955912154075
-2023-05-25 16:20:55,367 INFO 
+2023-05-25 18:47:47,994 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:47,994 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:47,994 INFO 
 
-2023-05-25 16:20:55,367 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:47:47,994 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 16:20:55,558 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.739825900572961), ('l2', 1.278308600446857)])})
-2023-05-25 16:20:55,559 INFO validation fold: 3, mae: 0.739825900572961
-2023-05-25 16:20:55,559 INFO 
+2023-05-25 18:47:48,055 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:48,056 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:48,056 INFO 
 
-2023-05-25 16:20:55,559 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:47:48,056 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 16:20:55,722 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 0.9871023181503878), ('l2', 1.8113084262520411)])})
-2023-05-25 16:20:55,723 INFO validation fold: 4, mae: 0.9871023181503878
-2023-05-25 16:20:55,723 INFO 
+2023-05-25 18:47:48,111 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:48,112 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:48,112 INFO 
 
-2023-05-25 16:20:55,723 INFO ---Finished training---
-2023-05-25 16:20:55,723 INFO Mean of mae over all folds: 0.8688462750425879
-2023-05-25 16:20:55,725 INFO {"learning_rate": 0.010953147490408254, "n_estimators": 385}
+2023-05-25 18:47:48,112 INFO ---Finished training---
+2023-05-25 18:47:48,112 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:48,133 INFO 
+
+2023-05-25 18:47:48,133 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:48,172 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:48,173 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:48,173 INFO 
+
+2023-05-25 18:47:48,173 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:48,226 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:48,226 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:48,226 INFO 
+
+2023-05-25 18:47:48,227 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:48,276 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:48,277 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:48,277 INFO 
+
+2023-05-25 18:47:48,277 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:48,335 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:48,335 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:48,335 INFO 
+
+2023-05-25 18:47:48,335 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:48,373 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:48,373 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:48,373 INFO 
+
+2023-05-25 18:47:48,373 INFO ---Finished training---
+2023-05-25 18:47:48,374 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:48,394 INFO 
+
+2023-05-25 18:47:48,394 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:48,421 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:48,421 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:48,421 INFO 
+
+2023-05-25 18:47:48,421 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:48,451 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:48,452 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:48,452 INFO 
+
+2023-05-25 18:47:48,452 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:48,480 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:48,480 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:48,480 INFO 
+
+2023-05-25 18:47:48,480 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:48,516 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:48,517 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:48,517 INFO 
+
+2023-05-25 18:47:48,517 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:48,577 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:48,577 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:48,577 INFO 
+
+2023-05-25 18:47:48,577 INFO ---Finished training---
+2023-05-25 18:47:48,577 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:48,609 INFO 
+
+2023-05-25 18:47:48,609 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:48,646 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:48,647 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:48,647 INFO 
+
+2023-05-25 18:47:48,647 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:48,675 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:48,675 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:48,675 INFO 
+
+2023-05-25 18:47:48,675 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:48,703 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:48,703 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:48,704 INFO 
+
+2023-05-25 18:47:48,704 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:48,735 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:48,735 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:48,735 INFO 
+
+2023-05-25 18:47:48,735 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:48,766 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:48,767 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:48,767 INFO 
+
+2023-05-25 18:47:48,767 INFO ---Finished training---
+2023-05-25 18:47:48,767 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:48,789 INFO 
+
+2023-05-25 18:47:48,790 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:48,837 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:48,837 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:48,838 INFO 
+
+2023-05-25 18:47:48,838 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:48,891 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:48,892 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:48,892 INFO 
+
+2023-05-25 18:47:48,892 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:48,942 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:48,943 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:48,943 INFO 
+
+2023-05-25 18:47:48,943 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:49,035 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:49,036 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:49,036 INFO 
+
+2023-05-25 18:47:49,036 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:49,074 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:49,074 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:49,074 INFO 
+
+2023-05-25 18:47:49,074 INFO ---Finished training---
+2023-05-25 18:47:49,074 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:49,097 INFO 
+
+2023-05-25 18:47:49,097 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:49,118 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:49,118 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:49,119 INFO 
+
+2023-05-25 18:47:49,119 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:49,143 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:49,144 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:49,144 INFO 
+
+2023-05-25 18:47:49,144 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:49,161 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:49,161 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:49,161 INFO 
+
+2023-05-25 18:47:49,161 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:49,183 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:49,183 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:49,183 INFO 
+
+2023-05-25 18:47:49,183 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:49,205 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:49,206 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:49,206 INFO 
+
+2023-05-25 18:47:49,206 INFO ---Finished training---
+2023-05-25 18:47:49,206 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:49,229 INFO 
+
+2023-05-25 18:47:49,229 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:49,263 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:49,263 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:49,263 INFO 
+
+2023-05-25 18:47:49,263 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:49,294 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:49,294 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:49,294 INFO 
+
+2023-05-25 18:47:49,294 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:49,334 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:49,334 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:49,335 INFO 
+
+2023-05-25 18:47:49,335 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:49,372 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:49,372 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:49,372 INFO 
+
+2023-05-25 18:47:49,372 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:49,419 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:49,420 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:49,420 INFO 
+
+2023-05-25 18:47:49,420 INFO ---Finished training---
+2023-05-25 18:47:49,420 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:49,448 INFO 
+
+2023-05-25 18:47:49,448 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:49,497 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:49,498 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:49,498 INFO 
+
+2023-05-25 18:47:49,498 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:49,559 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:49,559 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:49,559 INFO 
+
+2023-05-25 18:47:49,559 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:49,598 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:49,598 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:49,599 INFO 
+
+2023-05-25 18:47:49,599 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:49,639 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:49,639 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:49,640 INFO 
+
+2023-05-25 18:47:49,640 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:49,676 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:49,676 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:49,676 INFO 
+
+2023-05-25 18:47:49,676 INFO ---Finished training---
+2023-05-25 18:47:49,677 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:49,700 INFO 
+
+2023-05-25 18:47:49,700 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:49,724 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:49,724 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:49,724 INFO 
+
+2023-05-25 18:47:49,727 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:49,755 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:49,755 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:49,756 INFO 
+
+2023-05-25 18:47:49,756 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:49,797 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:49,797 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:49,797 INFO 
+
+2023-05-25 18:47:49,797 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:49,830 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:49,831 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:49,831 INFO 
+
+2023-05-25 18:47:49,831 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:49,856 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:49,856 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:49,856 INFO 
+
+2023-05-25 18:47:49,856 INFO ---Finished training---
+2023-05-25 18:47:49,856 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:49,880 INFO 
+
+2023-05-25 18:47:49,880 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:50,219 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:50,219 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:50,219 INFO 
+
+2023-05-25 18:47:50,219 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:50,282 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:50,282 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:50,282 INFO 
+
+2023-05-25 18:47:50,282 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:50,401 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:50,402 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:50,402 INFO 
+
+2023-05-25 18:47:50,402 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:50,510 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:50,510 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:50,510 INFO 
+
+2023-05-25 18:47:50,510 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:50,591 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:50,592 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:50,592 INFO 
+
+2023-05-25 18:47:50,592 INFO ---Finished training---
+2023-05-25 18:47:50,592 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:50,619 INFO 
+
+2023-05-25 18:47:50,619 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:50,719 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 11.84673368243789), ('l2', 191.22183327296935)])})
+2023-05-25 18:47:50,720 INFO validation fold: 0, mae: 11.84673368243789
+2023-05-25 18:47:50,720 INFO 
+
+2023-05-25 18:47:50,720 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:50,819 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 11.677673424162833), ('l2', 217.0255600550092)])})
+2023-05-25 18:47:50,819 INFO validation fold: 1, mae: 11.677673424162833
+2023-05-25 18:47:50,820 INFO 
+
+2023-05-25 18:47:50,820 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:50,941 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 8.359494726136324), ('l2', 113.185664309734)])})
+2023-05-25 18:47:50,941 INFO validation fold: 2, mae: 8.359494726136324
+2023-05-25 18:47:50,942 INFO 
+
+2023-05-25 18:47:50,942 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:51,055 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 8.622170451050483), ('l2', 107.45849444854883)])})
+2023-05-25 18:47:51,055 INFO validation fold: 3, mae: 8.622170451050483
+2023-05-25 18:47:51,056 INFO 
+
+2023-05-25 18:47:51,056 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:51,174 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 9.066568545577592), ('l2', 123.96710418975242)])})
+2023-05-25 18:47:51,175 INFO validation fold: 4, mae: 9.066568545577592
+2023-05-25 18:47:51,175 INFO 
+
+2023-05-25 18:47:51,175 INFO ---Finished training---
+2023-05-25 18:47:51,175 INFO Mean of mae over all folds: 9.914528165873026
+2023-05-25 18:47:51,201 INFO 
+
+2023-05-25 18:47:51,201 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:51,273 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:51,273 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:51,273 INFO 
+
+2023-05-25 18:47:51,273 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:51,355 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:51,355 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:51,355 INFO 
+
+2023-05-25 18:47:51,355 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:51,413 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:51,414 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:51,414 INFO 
+
+2023-05-25 18:47:51,414 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:51,624 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:51,624 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:51,624 INFO 
+
+2023-05-25 18:47:51,625 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:51,918 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:51,918 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:51,918 INFO 
+
+2023-05-25 18:47:51,918 INFO ---Finished training---
+2023-05-25 18:47:51,918 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:51,949 INFO 
+
+2023-05-25 18:47:51,950 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:52,260 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 11.14968499166662), ('l2', 176.1559920657191)])})
+2023-05-25 18:47:52,260 INFO validation fold: 0, mae: 11.14968499166662
+2023-05-25 18:47:52,261 INFO 
+
+2023-05-25 18:47:52,261 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:52,323 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 11.797527031719039), ('l2', 222.05770438815614)])})
+2023-05-25 18:47:52,323 INFO validation fold: 1, mae: 11.797527031719039
+2023-05-25 18:47:52,324 INFO 
+
+2023-05-25 18:47:52,324 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:52,414 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 9.304279937490417), ('l2', 124.26058151581566)])})
+2023-05-25 18:47:52,414 INFO validation fold: 2, mae: 9.304279937490417
+2023-05-25 18:47:52,415 INFO 
+
+2023-05-25 18:47:52,415 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:52,488 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 8.75191767514598), ('l2', 107.85261655580207)])})
+2023-05-25 18:47:52,488 INFO validation fold: 3, mae: 8.75191767514598
+2023-05-25 18:47:52,489 INFO 
+
+2023-05-25 18:47:52,489 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:52,651 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 9.655033190673777), ('l2', 137.89688141239026)])})
+2023-05-25 18:47:52,651 INFO validation fold: 4, mae: 9.655033190673777
+2023-05-25 18:47:52,651 INFO 
+
+2023-05-25 18:47:52,651 INFO ---Finished training---
+2023-05-25 18:47:52,651 INFO Mean of mae over all folds: 10.131688565339168
+2023-05-25 18:47:52,678 INFO 
+
+2023-05-25 18:47:52,678 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:52,730 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:52,730 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:52,730 INFO 
+
+2023-05-25 18:47:52,731 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:52,769 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:52,770 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:52,770 INFO 
+
+2023-05-25 18:47:52,770 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:53,124 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:53,124 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:53,124 INFO 
+
+2023-05-25 18:47:53,124 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:53,208 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:53,208 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:53,209 INFO 
+
+2023-05-25 18:47:53,209 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:53,333 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:53,333 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:53,333 INFO 
+
+2023-05-25 18:47:53,333 INFO ---Finished training---
+2023-05-25 18:47:53,333 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:53,370 INFO 
+
+2023-05-25 18:47:53,371 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:53,586 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:53,586 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:53,586 INFO 
+
+2023-05-25 18:47:53,587 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:53,673 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:53,673 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:53,673 INFO 
+
+2023-05-25 18:47:53,674 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:53,780 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:53,780 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:47:53,780 INFO 
+
+2023-05-25 18:47:53,780 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:53,870 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:53,870 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:53,870 INFO 
+
+2023-05-25 18:47:53,870 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:53,989 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:53,990 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:53,990 INFO 
+
+2023-05-25 18:47:53,990 INFO ---Finished training---
+2023-05-25 18:47:53,990 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:54,022 INFO 
+
+2023-05-25 18:47:54,023 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:54,087 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:54,087 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:54,087 INFO 
+
+2023-05-25 18:47:54,087 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:54,157 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:54,157 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:54,159 INFO 
+
+2023-05-25 18:47:54,160 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:54,233 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:54,233 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:54,233 INFO 
+
+2023-05-25 18:47:54,233 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:54,299 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:54,299 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:54,299 INFO 
+
+2023-05-25 18:47:54,300 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:54,353 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:54,353 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:54,353 INFO 
+
+2023-05-25 18:47:54,353 INFO ---Finished training---
+2023-05-25 18:47:54,353 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:54,380 INFO 
+
+2023-05-25 18:47:54,380 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:54,413 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:54,414 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:54,414 INFO 
+
+2023-05-25 18:47:54,414 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:54,456 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:54,457 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:54,458 INFO 
+
+2023-05-25 18:47:54,458 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:54,494 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:54,495 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:54,495 INFO 
+
+2023-05-25 18:47:54,495 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:54,535 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:54,536 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:54,536 INFO 
+
+2023-05-25 18:47:54,536 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:54,606 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:54,607 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:54,607 INFO 
+
+2023-05-25 18:47:54,607 INFO ---Finished training---
+2023-05-25 18:47:54,607 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:54,640 INFO 
+
+2023-05-25 18:47:54,641 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:54,704 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:54,706 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:54,707 INFO 
+
+2023-05-25 18:47:54,707 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:54,773 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:54,774 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:54,774 INFO 
+
+2023-05-25 18:47:54,774 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:54,834 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:54,834 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:54,835 INFO 
+
+2023-05-25 18:47:54,835 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:54,903 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:54,903 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:54,903 INFO 
+
+2023-05-25 18:47:54,903 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:55,115 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:55,115 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:55,115 INFO 
+
+2023-05-25 18:47:55,115 INFO ---Finished training---
+2023-05-25 18:47:55,115 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:55,148 INFO 
+
+2023-05-25 18:47:55,148 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:55,231 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:55,232 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:55,232 INFO 
+
+2023-05-25 18:47:55,232 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:55,330 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:55,331 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:55,331 INFO 
+
+2023-05-25 18:47:55,331 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:55,780 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:55,780 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:55,781 INFO 
+
+2023-05-25 18:47:55,781 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:56,622 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:56,622 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:56,622 INFO 
+
+2023-05-25 18:47:56,622 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:56,935 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:56,935 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:56,935 INFO 
+
+2023-05-25 18:47:56,935 INFO ---Finished training---
+2023-05-25 18:47:56,935 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:56,966 INFO 
+
+2023-05-25 18:47:56,966 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:57,496 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:57,497 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:57,497 INFO 
+
+2023-05-25 18:47:57,497 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:57,953 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:57,953 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:57,953 INFO 
+
+2023-05-25 18:47:57,953 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:58,019 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:58,019 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:58,019 INFO 
+
+2023-05-25 18:47:58,019 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:58,130 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:58,131 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:58,131 INFO 
+
+2023-05-25 18:47:58,131 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:58,190 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:58,190 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:58,190 INFO 
+
+2023-05-25 18:47:58,190 INFO ---Finished training---
+2023-05-25 18:47:58,190 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:58,219 INFO 
+
+2023-05-25 18:47:58,219 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:58,277 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:58,278 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:58,278 INFO 
+
+2023-05-25 18:47:58,278 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:58,385 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:58,385 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:58,385 INFO 
+
+2023-05-25 18:47:58,386 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:58,453 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:58,453 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:58,453 INFO 
+
+2023-05-25 18:47:58,453 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:58,501 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:58,502 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:58,502 INFO 
+
+2023-05-25 18:47:58,502 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:58,562 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:58,562 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:58,562 INFO 
+
+2023-05-25 18:47:58,562 INFO ---Finished training---
+2023-05-25 18:47:58,563 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:58,593 INFO 
+
+2023-05-25 18:47:58,593 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:58,694 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:58,694 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:58,695 INFO 
+
+2023-05-25 18:47:58,695 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:58,792 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:58,792 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:58,792 INFO 
+
+2023-05-25 18:47:58,793 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:58,867 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:58,867 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:58,867 INFO 
+
+2023-05-25 18:47:58,867 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:58,933 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:58,933 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:58,934 INFO 
+
+2023-05-25 18:47:58,934 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:59,002 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:59,002 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:59,005 INFO 
+
+2023-05-25 18:47:59,005 INFO ---Finished training---
+2023-05-25 18:47:59,005 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:59,034 INFO 
+
+2023-05-25 18:47:59,034 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:59,111 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:59,111 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:59,111 INFO 
+
+2023-05-25 18:47:59,112 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:59,159 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:59,160 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:59,160 INFO 
+
+2023-05-25 18:47:59,160 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:59,210 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:59,211 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:59,211 INFO 
+
+2023-05-25 18:47:59,211 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:59,243 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:59,243 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:59,243 INFO 
+
+2023-05-25 18:47:59,243 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:59,282 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:47:59,282 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:59,282 INFO 
+
+2023-05-25 18:47:59,282 INFO ---Finished training---
+2023-05-25 18:47:59,282 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:59,310 INFO 
+
+2023-05-25 18:47:59,311 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:59,366 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:59,366 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:59,366 INFO 
+
+2023-05-25 18:47:59,367 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:59,407 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:59,407 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:59,408 INFO 
+
+2023-05-25 18:47:59,408 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:59,448 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:59,448 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:59,448 INFO 
+
+2023-05-25 18:47:59,448 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:59,498 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:59,498 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:59,498 INFO 
+
+2023-05-25 18:47:59,499 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:59,565 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:59,565 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:59,565 INFO 
+
+2023-05-25 18:47:59,565 INFO ---Finished training---
+2023-05-25 18:47:59,565 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:59,596 INFO 
+
+2023-05-25 18:47:59,596 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:59,654 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:47:59,654 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:59,654 INFO 
+
+2023-05-25 18:47:59,655 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:47:59,706 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:47:59,707 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:47:59,707 INFO 
+
+2023-05-25 18:47:59,707 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:47:59,765 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:47:59,765 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:47:59,766 INFO 
+
+2023-05-25 18:47:59,766 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:47:59,814 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:47:59,814 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:47:59,815 INFO 
+
+2023-05-25 18:47:59,815 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:47:59,859 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:47:59,860 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:47:59,860 INFO 
+
+2023-05-25 18:47:59,860 INFO ---Finished training---
+2023-05-25 18:47:59,860 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:47:59,890 INFO 
+
+2023-05-25 18:47:59,890 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:47:59,912 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:47:59,912 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:47:59,912 INFO 
+
+2023-05-25 18:47:59,913 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:48:00,042 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:48:00,042 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:48:00,042 INFO 
+
+2023-05-25 18:48:00,042 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:48:00,099 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:48:00,100 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:48:00,100 INFO 
+
+2023-05-25 18:48:00,100 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:48:00,131 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:48:00,131 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:48:00,131 INFO 
+
+2023-05-25 18:48:00,131 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:48:00,154 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:48:00,154 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:48:00,154 INFO 
+
+2023-05-25 18:48:00,154 INFO ---Finished training---
+2023-05-25 18:48:00,154 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:48:00,182 INFO 
+
+2023-05-25 18:48:00,182 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:48:00,225 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.22136423326)])})
+2023-05-25 18:48:00,225 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:48:00,225 INFO 
+
+2023-05-25 18:48:00,225 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:48:00,306 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:48:00,307 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:48:00,307 INFO 
+
+2023-05-25 18:48:00,307 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:48:00,426 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:48:00,427 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:48:00,427 INFO 
+
+2023-05-25 18:48:00,427 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:48:00,496 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:48:00,497 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:48:00,497 INFO 
+
+2023-05-25 18:48:00,497 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:48:00,563 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.8099849104665)])})
+2023-05-25 18:48:00,563 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:48:00,563 INFO 
+
+2023-05-25 18:48:00,563 INFO ---Finished training---
+2023-05-25 18:48:00,564 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:48:00,596 INFO 
+
+2023-05-25 18:48:00,596 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:48:00,665 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:48:00,665 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:48:00,665 INFO 
+
+2023-05-25 18:48:00,665 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:48:00,746 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:48:00,746 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:48:00,746 INFO 
+
+2023-05-25 18:48:00,746 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:48:00,950 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381394), ('l2', 3274.469058341376)])})
+2023-05-25 18:48:00,950 INFO validation fold: 2, mae: 53.54105732381394
+2023-05-25 18:48:00,950 INFO 
+
+2023-05-25 18:48:00,950 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:48:01,029 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:48:01,030 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:48:01,030 INFO 
+
+2023-05-25 18:48:01,030 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:48:01,097 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:48:01,097 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:48:01,097 INFO 
+
+2023-05-25 18:48:01,098 INFO ---Finished training---
+2023-05-25 18:48:01,098 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:48:01,127 INFO 
+
+2023-05-25 18:48:01,127 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:48:01,311 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:48:01,312 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:48:01,312 INFO 
+
+2023-05-25 18:48:01,312 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:48:01,413 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:48:01,413 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:48:01,413 INFO 
+
+2023-05-25 18:48:01,413 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:48:01,514 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:48:01,514 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:48:01,514 INFO 
+
+2023-05-25 18:48:01,514 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:48:02,047 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:48:02,047 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:48:02,047 INFO 
+
+2023-05-25 18:48:02,048 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:48:02,332 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:48:02,332 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:48:02,332 INFO 
+
+2023-05-25 18:48:02,332 INFO ---Finished training---
+2023-05-25 18:48:02,332 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:48:02,380 INFO 
+
+2023-05-25 18:48:02,380 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:48:02,571 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.64603561504118), ('l2', 3164.2213642332604)])})
+2023-05-25 18:48:02,572 INFO validation fold: 0, mae: 52.64603561504118
+2023-05-25 18:48:02,572 INFO 
+
+2023-05-25 18:48:02,572 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:48:02,937 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.261697258612124), ('l2', 3146.21853107913)])})
+2023-05-25 18:48:02,937 INFO validation fold: 1, mae: 52.261697258612124
+2023-05-25 18:48:02,937 INFO 
+
+2023-05-25 18:48:02,937 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:48:05,080 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 53.54105732381393), ('l2', 3274.469058341376)])})
+2023-05-25 18:48:05,080 INFO validation fold: 2, mae: 53.54105732381393
+2023-05-25 18:48:05,081 INFO 
+
+2023-05-25 18:48:05,081 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:48:05,160 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.80325644268855), ('l2', 3162.884569994231)])})
+2023-05-25 18:48:05,161 INFO validation fold: 3, mae: 52.80325644268855
+2023-05-25 18:48:05,161 INFO 
+
+2023-05-25 18:48:05,161 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:48:05,194 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 52.88921720256689), ('l2', 3198.809984910467)])})
+2023-05-25 18:48:05,194 INFO validation fold: 4, mae: 52.88921720256689
+2023-05-25 18:48:05,194 INFO 
+
+2023-05-25 18:48:05,194 INFO ---Finished training---
+2023-05-25 18:48:05,194 INFO Mean of mae over all folds: 52.828252768544544
+2023-05-25 18:48:05,223 INFO 
+
+2023-05-25 18:48:05,223 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:48:05,315 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 11.480482599697586), ('l2', 181.92537223385045)])})
+2023-05-25 18:48:05,315 INFO validation fold: 0, mae: 11.480482599697586
+2023-05-25 18:48:05,315 INFO 
+
+2023-05-25 18:48:05,315 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:48:05,475 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 11.5831160516016), ('l2', 214.2196647807555)])})
+2023-05-25 18:48:05,475 INFO validation fold: 1, mae: 11.5831160516016
+2023-05-25 18:48:05,475 INFO 
+
+2023-05-25 18:48:05,475 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:48:05,594 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 8.679799860570443), ('l2', 118.37792175006233)])})
+2023-05-25 18:48:05,595 INFO validation fold: 2, mae: 8.679799860570443
+2023-05-25 18:48:05,595 INFO 
+
+2023-05-25 18:48:05,595 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:48:05,728 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 8.696665225838201), ('l2', 110.30866628769945)])})
+2023-05-25 18:48:05,728 INFO validation fold: 3, mae: 8.696665225838201
+2023-05-25 18:48:05,729 INFO 
+
+2023-05-25 18:48:05,729 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:48:05,851 INFO defaultdict(<class 'collections.OrderedDict'>, {'valid_0': OrderedDict([('l1', 9.239970324465117), ('l2', 129.0266465610124)])})
+2023-05-25 18:48:05,852 INFO validation fold: 4, mae: 9.239970324465117
+2023-05-25 18:48:05,852 INFO 
+
+2023-05-25 18:48:05,852 INFO ---Finished training---
+2023-05-25 18:48:05,852 INFO Mean of mae over all folds: 9.93600681243459
+2023-05-25 18:48:05,853 INFO {"learning_rate": 0.0560979528749417, "n_estimators": 704, "num_leaves": 585, "max_depth": 6, "min_child_weight": 0.03344444768119558, "min_child_samples": 100}

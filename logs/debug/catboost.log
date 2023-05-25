@@ -1,291 +1,1451 @@
-2023-05-25 17:37:05,274 INFO 
+2023-05-25 18:31:27,554 INFO 
 
-2023-05-25 17:37:05,274 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:31:27,554 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:06,853 INFO validation fold: 0, mae: 1.5912308691217063
-2023-05-25 17:37:06,854 INFO 
+2023-05-25 18:31:28,245 INFO validation fold: 0, mae: 9.381472822741006
+2023-05-25 18:31:28,246 INFO 
 
-2023-05-25 17:37:06,854 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:31:28,246 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:08,314 INFO validation fold: 1, mae: 2.26611877117415
-2023-05-25 17:37:08,315 INFO 
+2023-05-25 18:31:28,860 INFO validation fold: 1, mae: 12.491541553307876
+2023-05-25 18:31:28,861 INFO 
 
-2023-05-25 17:37:08,315 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:31:28,861 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:09,780 INFO validation fold: 2, mae: 2.564871541323107
-2023-05-25 17:37:09,780 INFO 
+2023-05-25 18:31:29,470 INFO validation fold: 2, mae: 9.778092973814413
+2023-05-25 18:31:29,470 INFO 
 
-2023-05-25 17:37:09,780 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:31:29,470 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:11,305 INFO validation fold: 3, mae: 2.1844241853684037
-2023-05-25 17:37:11,306 INFO 
+2023-05-25 18:31:30,086 INFO validation fold: 3, mae: 10.109039215656999
+2023-05-25 18:31:30,086 INFO 
 
-2023-05-25 17:37:11,306 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:31:30,086 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:12,804 INFO validation fold: 4, mae: 2.1581403671432904
-2023-05-25 17:37:12,804 INFO 
+2023-05-25 18:31:30,697 INFO validation fold: 4, mae: 10.992719533076981
+2023-05-25 18:31:30,697 INFO 
 
-2023-05-25 17:37:12,804 INFO ---Finished training---
-2023-05-25 17:37:12,804 INFO Mean of mae over all folds: 2.1529571468261315
-2023-05-25 17:37:12,806 INFO 
+2023-05-25 18:31:30,697 INFO ---Finished training---
+2023-05-25 18:31:30,697 INFO Mean of mae over all folds: 10.550573219719455
+2023-05-25 18:31:30,699 INFO 
 
-2023-05-25 17:37:12,806 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:31:30,699 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:13,120 INFO validation fold: 0, mae: 13.003309195668301
-2023-05-25 17:37:13,120 INFO 
+2023-05-25 18:31:33,508 INFO validation fold: 0, mae: 8.70909393175771
+2023-05-25 18:31:33,509 INFO 
 
-2023-05-25 17:37:13,120 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:31:33,509 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:13,427 INFO validation fold: 1, mae: 13.294760425505068
-2023-05-25 17:37:13,428 INFO 
+2023-05-25 18:31:36,318 INFO validation fold: 1, mae: 11.576399675912198
+2023-05-25 18:31:36,319 INFO 
 
-2023-05-25 17:37:13,428 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:31:36,319 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:13,746 INFO validation fold: 2, mae: 12.927430152291231
-2023-05-25 17:37:13,746 INFO 
+2023-05-25 18:31:39,137 INFO validation fold: 2, mae: 9.471380939569588
+2023-05-25 18:31:39,137 INFO 
 
-2023-05-25 17:37:13,746 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:31:39,137 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:14,062 INFO validation fold: 3, mae: 12.71271093223648
-2023-05-25 17:37:14,062 INFO 
+2023-05-25 18:31:41,957 INFO validation fold: 3, mae: 10.123670640759292
+2023-05-25 18:31:41,957 INFO 
 
-2023-05-25 17:37:14,062 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:31:41,957 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:14,377 INFO validation fold: 4, mae: 13.124427675908308
-2023-05-25 17:37:14,377 INFO 
+2023-05-25 18:31:44,752 INFO validation fold: 4, mae: 10.853510957535644
+2023-05-25 18:31:44,752 INFO 
 
-2023-05-25 17:37:14,377 INFO ---Finished training---
-2023-05-25 17:37:14,377 INFO Mean of mae over all folds: 13.012527676321877
-2023-05-25 17:37:14,378 INFO 
+2023-05-25 18:31:44,752 INFO ---Finished training---
+2023-05-25 18:31:44,752 INFO Mean of mae over all folds: 10.146811229106884
+2023-05-25 18:31:44,754 INFO 
 
-2023-05-25 17:37:14,378 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:31:44,754 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:15,239 INFO validation fold: 0, mae: 1.592141911484476
-2023-05-25 17:37:15,239 INFO 
+2023-05-25 18:31:45,368 INFO validation fold: 0, mae: 8.93522003455517
+2023-05-25 18:31:45,368 INFO 
 
-2023-05-25 17:37:15,239 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:31:45,369 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:16,077 INFO validation fold: 1, mae: 2.0090984314441243
-2023-05-25 17:37:16,078 INFO 
+2023-05-25 18:31:45,990 INFO validation fold: 1, mae: 10.600133699230996
+2023-05-25 18:31:45,990 INFO 
 
-2023-05-25 17:37:16,078 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:31:45,990 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:16,917 INFO validation fold: 2, mae: 2.507659920690053
-2023-05-25 17:37:16,918 INFO 
+2023-05-25 18:31:46,602 INFO validation fold: 2, mae: 9.71661665663881
+2023-05-25 18:31:46,603 INFO 
 
-2023-05-25 17:37:16,918 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:31:46,603 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:17,763 INFO validation fold: 3, mae: 2.09090442682435
-2023-05-25 17:37:17,763 INFO 
+2023-05-25 18:31:47,224 INFO validation fold: 3, mae: 10.68824212020028
+2023-05-25 18:31:47,224 INFO 
 
-2023-05-25 17:37:17,763 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:31:47,224 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:18,600 INFO validation fold: 4, mae: 2.261987758981388
-2023-05-25 17:37:18,600 INFO 
+2023-05-25 18:31:47,836 INFO validation fold: 4, mae: 10.175243550684526
+2023-05-25 18:31:47,836 INFO 
 
-2023-05-25 17:37:18,600 INFO ---Finished training---
-2023-05-25 17:37:18,600 INFO Mean of mae over all folds: 2.092358489884878
-2023-05-25 17:37:18,601 INFO 
+2023-05-25 18:31:47,836 INFO ---Finished training---
+2023-05-25 18:31:47,836 INFO Mean of mae over all folds: 10.023091212261956
+2023-05-25 18:31:47,838 INFO 
 
-2023-05-25 17:37:18,602 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:31:47,838 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:19,565 INFO validation fold: 0, mae: 1.5637993032039184
-2023-05-25 17:37:19,566 INFO 
+2023-05-25 18:31:49,426 INFO validation fold: 0, mae: 10.874529725274103
+2023-05-25 18:31:49,427 INFO 
 
-2023-05-25 17:37:19,566 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:31:49,427 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:20,576 INFO validation fold: 1, mae: 2.315602009993867
-2023-05-25 17:37:20,576 INFO 
+2023-05-25 18:31:50,960 INFO validation fold: 1, mae: 12.640679006078019
+2023-05-25 18:31:50,961 INFO 
 
-2023-05-25 17:37:20,576 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:31:50,961 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:21,783 INFO validation fold: 2, mae: 2.6443777886736544
-2023-05-25 17:37:21,784 INFO 
+2023-05-25 18:31:52,489 INFO validation fold: 2, mae: 11.333810315442316
+2023-05-25 18:31:52,489 INFO 
 
-2023-05-25 17:37:21,784 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:31:52,490 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:23,124 INFO validation fold: 3, mae: 2.442672994889898
-2023-05-25 17:37:23,125 INFO 
+2023-05-25 18:31:54,041 INFO validation fold: 3, mae: 11.021599932403724
+2023-05-25 18:31:54,041 INFO 
 
-2023-05-25 17:37:23,125 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:31:54,041 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:24,581 INFO validation fold: 4, mae: 2.3100015404955534
-2023-05-25 17:37:24,581 INFO 
+2023-05-25 18:31:55,589 INFO validation fold: 4, mae: 11.788028171686774
+2023-05-25 18:31:55,589 INFO 
 
-2023-05-25 17:37:24,581 INFO ---Finished training---
-2023-05-25 17:37:24,581 INFO Mean of mae over all folds: 2.2552907274513783
-2023-05-25 17:37:24,582 INFO 
+2023-05-25 18:31:55,589 INFO ---Finished training---
+2023-05-25 18:31:55,589 INFO Mean of mae over all folds: 11.531729430176988
+2023-05-25 18:31:55,591 INFO 
 
-2023-05-25 17:37:24,583 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:31:55,591 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:25,431 INFO validation fold: 0, mae: 2.270524334637814
-2023-05-25 17:37:25,431 INFO 
+2023-05-25 18:32:00,287 INFO validation fold: 0, mae: 11.495093751673002
+2023-05-25 18:32:00,288 INFO 
 
-2023-05-25 17:37:25,431 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:32:00,288 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:26,333 INFO validation fold: 1, mae: 3.147969834583516
-2023-05-25 17:37:26,334 INFO 
+2023-05-25 18:32:05,094 INFO validation fold: 1, mae: 12.465835277967086
+2023-05-25 18:32:05,095 INFO 
 
-2023-05-25 17:37:26,334 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:32:05,096 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:26,954 INFO validation fold: 2, mae: 3.037919498608622
-2023-05-25 17:37:26,955 INFO 
+2023-05-25 18:32:09,790 INFO validation fold: 2, mae: 11.89336717156079
+2023-05-25 18:32:09,791 INFO 
 
-2023-05-25 17:37:26,955 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:32:09,792 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:27,636 INFO validation fold: 3, mae: 2.6888611786428402
-2023-05-25 17:37:27,636 INFO 
+2023-05-25 18:32:14,649 INFO validation fold: 3, mae: 11.258537953295463
+2023-05-25 18:32:14,650 INFO 
 
-2023-05-25 17:37:27,636 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:32:14,650 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:28,304 INFO validation fold: 4, mae: 2.746396392828593
-2023-05-25 17:37:28,304 INFO 
+2023-05-25 18:32:19,561 INFO validation fold: 4, mae: 12.019735593902823
+2023-05-25 18:32:19,561 INFO 
 
-2023-05-25 17:37:28,304 INFO ---Finished training---
-2023-05-25 17:37:28,304 INFO Mean of mae over all folds: 2.778334247860277
-2023-05-25 17:37:28,305 INFO 
+2023-05-25 18:32:19,561 INFO ---Finished training---
+2023-05-25 18:32:19,561 INFO Mean of mae over all folds: 11.826513949679832
+2023-05-25 18:32:19,564 INFO 
 
-2023-05-25 17:37:28,305 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:32:19,564 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:29,383 INFO validation fold: 0, mae: 1.3941392233559358
-2023-05-25 17:37:29,384 INFO 
+2023-05-25 18:32:23,636 INFO validation fold: 0, mae: 15.790791641005809
+2023-05-25 18:32:23,637 INFO 
 
-2023-05-25 17:37:29,384 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:32:23,637 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:30,437 INFO validation fold: 1, mae: 2.235938617886707
-2023-05-25 17:37:30,438 INFO 
+2023-05-25 18:32:27,704 INFO validation fold: 1, mae: 16.040734757127833
+2023-05-25 18:32:27,705 INFO 
 
-2023-05-25 17:37:30,438 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:32:27,705 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:31,485 INFO validation fold: 2, mae: 2.33093360366656
-2023-05-25 17:37:31,486 INFO 
+2023-05-25 18:32:31,756 INFO validation fold: 2, mae: 15.473642218240641
+2023-05-25 18:32:31,756 INFO 
 
-2023-05-25 17:37:31,486 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:32:31,756 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:32,575 INFO validation fold: 3, mae: 2.042161365976523
-2023-05-25 17:37:32,576 INFO 
+2023-05-25 18:32:35,830 INFO validation fold: 3, mae: 15.321843408847805
+2023-05-25 18:32:35,830 INFO 
 
-2023-05-25 17:37:32,576 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:32:35,830 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:33,647 INFO validation fold: 4, mae: 1.9745177878979483
-2023-05-25 17:37:33,647 INFO 
+2023-05-25 18:32:39,883 INFO validation fold: 4, mae: 15.82330057978057
+2023-05-25 18:32:39,883 INFO 
 
-2023-05-25 17:37:33,647 INFO ---Finished training---
-2023-05-25 17:37:33,647 INFO Mean of mae over all folds: 1.9955381197567348
-2023-05-25 17:37:33,648 INFO 
+2023-05-25 18:32:39,883 INFO ---Finished training---
+2023-05-25 18:32:39,883 INFO Mean of mae over all folds: 15.690062521000531
+2023-05-25 18:32:39,885 INFO 
 
-2023-05-25 17:37:33,648 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:32:39,885 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:35,470 INFO validation fold: 0, mae: 1.3742957520069292
-2023-05-25 17:37:35,470 INFO 
+2023-05-25 18:32:43,409 INFO validation fold: 0, mae: 8.602539265145113
+2023-05-25 18:32:43,410 INFO 
 
-2023-05-25 17:37:35,470 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:32:43,410 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:37,380 INFO validation fold: 1, mae: 2.096549155043156
-2023-05-25 17:37:37,381 INFO 
+2023-05-25 18:32:46,973 INFO validation fold: 1, mae: 11.223469074572597
+2023-05-25 18:32:46,974 INFO 
 
-2023-05-25 17:37:37,381 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:32:46,974 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:39,272 INFO validation fold: 2, mae: 2.241935877692872
-2023-05-25 17:37:39,273 INFO 
+2023-05-25 18:32:50,498 INFO validation fold: 2, mae: 9.683718719378255
+2023-05-25 18:32:50,498 INFO 
 
-2023-05-25 17:37:39,273 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:32:50,498 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:41,101 INFO validation fold: 3, mae: 2.057045341344322
-2023-05-25 17:37:41,102 INFO 
+2023-05-25 18:32:54,071 INFO validation fold: 3, mae: 9.65200939899977
+2023-05-25 18:32:54,071 INFO 
 
-2023-05-25 17:37:41,102 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:32:54,071 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:42,952 INFO validation fold: 4, mae: 1.9627878384855189
-2023-05-25 17:37:42,952 INFO 
+2023-05-25 18:32:57,550 INFO validation fold: 4, mae: 10.824349431573204
+2023-05-25 18:32:57,550 INFO 
 
-2023-05-25 17:37:42,952 INFO ---Finished training---
-2023-05-25 17:37:42,952 INFO Mean of mae over all folds: 1.9465227929145599
-2023-05-25 17:37:42,954 INFO 
+2023-05-25 18:32:57,550 INFO ---Finished training---
+2023-05-25 18:32:57,550 INFO Mean of mae over all folds: 9.997217177933788
+2023-05-25 18:32:57,552 INFO 
 
-2023-05-25 17:37:42,954 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:32:57,552 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:44,553 INFO validation fold: 0, mae: 1.6860178180607852
-2023-05-25 17:37:44,553 INFO 
+2023-05-25 18:33:02,680 INFO validation fold: 0, mae: 9.06717831740626
+2023-05-25 18:33:02,680 INFO 
 
-2023-05-25 17:37:44,553 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:33:02,680 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:46,195 INFO validation fold: 1, mae: 2.3464539024055844
-2023-05-25 17:37:46,196 INFO 
+2023-05-25 18:33:07,841 INFO validation fold: 1, mae: 10.632431439093105
+2023-05-25 18:33:07,841 INFO 
 
-2023-05-25 17:37:46,196 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:33:07,841 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:47,848 INFO validation fold: 2, mae: 2.7958995358224548
-2023-05-25 17:37:47,848 INFO 
+2023-05-25 18:33:12,968 INFO validation fold: 2, mae: 9.805908032073228
+2023-05-25 18:33:12,968 INFO 
 
-2023-05-25 17:37:47,848 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:33:12,968 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:49,415 INFO validation fold: 3, mae: 2.3418756888785555
-2023-05-25 17:37:49,416 INFO 
+2023-05-25 18:33:18,115 INFO validation fold: 3, mae: 10.00576330719642
+2023-05-25 18:33:18,115 INFO 
 
-2023-05-25 17:37:49,416 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:33:18,115 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:51,001 INFO validation fold: 4, mae: 2.404991207390627
-2023-05-25 17:37:51,001 INFO 
+2023-05-25 18:33:23,257 INFO validation fold: 4, mae: 10.325836275752472
+2023-05-25 18:33:23,257 INFO 
 
-2023-05-25 17:37:51,001 INFO ---Finished training---
-2023-05-25 17:37:51,001 INFO Mean of mae over all folds: 2.3150476305116015
-2023-05-25 17:37:51,003 INFO 
+2023-05-25 18:33:23,257 INFO ---Finished training---
+2023-05-25 18:33:23,257 INFO Mean of mae over all folds: 9.967423474304296
+2023-05-25 18:33:23,259 INFO 
 
-2023-05-25 17:37:51,003 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:33:23,259 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:51,452 INFO validation fold: 0, mae: 1.680867796324309
-2023-05-25 17:37:51,452 INFO 
+2023-05-25 18:33:32,813 INFO validation fold: 0, mae: 10.906639407858076
+2023-05-25 18:33:32,814 INFO 
 
-2023-05-25 17:37:51,452 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:33:32,814 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:51,928 INFO validation fold: 1, mae: 2.3106928318719957
-2023-05-25 17:37:51,928 INFO 
+2023-05-25 18:33:42,215 INFO validation fold: 1, mae: 12.672718484060987
+2023-05-25 18:33:42,216 INFO 
 
-2023-05-25 17:37:51,928 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:33:42,216 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:52,352 INFO validation fold: 2, mae: 2.679903459910661
-2023-05-25 17:37:52,352 INFO 
+2023-05-25 18:33:51,839 INFO validation fold: 2, mae: 11.938413988754952
+2023-05-25 18:33:51,840 INFO 
 
-2023-05-25 17:37:52,353 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:33:51,840 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:52,776 INFO validation fold: 3, mae: 2.2604861657606903
-2023-05-25 17:37:52,776 INFO 
+2023-05-25 18:34:01,389 INFO validation fold: 3, mae: 11.242990983799507
+2023-05-25 18:34:01,390 INFO 
 
-2023-05-25 17:37:52,777 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:34:01,390 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:53,207 INFO validation fold: 4, mae: 2.318023902685356
-2023-05-25 17:37:53,207 INFO 
+2023-05-25 18:34:11,066 INFO validation fold: 4, mae: 12.106912515885444
+2023-05-25 18:34:11,066 INFO 
 
-2023-05-25 17:37:53,207 INFO ---Finished training---
-2023-05-25 17:37:53,207 INFO Mean of mae over all folds: 2.2499948313106026
-2023-05-25 17:37:53,209 INFO 
+2023-05-25 18:34:11,066 INFO ---Finished training---
+2023-05-25 18:34:11,066 INFO Mean of mae over all folds: 11.773535076071795
+2023-05-25 18:34:11,069 INFO 
 
-2023-05-25 17:37:53,209 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+2023-05-25 18:34:11,069 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
 
-2023-05-25 17:37:54,292 INFO validation fold: 0, mae: 1.5073373567419592
-2023-05-25 17:37:54,292 INFO 
+2023-05-25 18:34:11,557 INFO validation fold: 0, mae: 9.396439934503727
+2023-05-25 18:34:11,557 INFO 
 
-2023-05-25 17:37:54,292 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+2023-05-25 18:34:11,558 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
 
-2023-05-25 17:37:55,383 INFO validation fold: 1, mae: 2.1636550557385767
-2023-05-25 17:37:55,384 INFO 
+2023-05-25 18:34:12,050 INFO validation fold: 1, mae: 11.345246410210635
+2023-05-25 18:34:12,051 INFO 
 
-2023-05-25 17:37:55,384 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+2023-05-25 18:34:12,051 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
 
-2023-05-25 17:37:56,454 INFO validation fold: 2, mae: 2.6304158263128783
-2023-05-25 17:37:56,454 INFO 
+2023-05-25 18:34:12,535 INFO validation fold: 2, mae: 10.068265502356155
+2023-05-25 18:34:12,536 INFO 
 
-2023-05-25 17:37:56,454 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+2023-05-25 18:34:12,536 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
 
-2023-05-25 17:37:57,610 INFO validation fold: 3, mae: 2.2058728417258218
-2023-05-25 17:37:57,611 INFO 
+2023-05-25 18:34:13,018 INFO validation fold: 3, mae: 9.901640377289239
+2023-05-25 18:34:13,018 INFO 
 
-2023-05-25 17:37:57,611 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+2023-05-25 18:34:13,018 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
 
-2023-05-25 17:37:58,740 INFO validation fold: 4, mae: 2.0686743739497966
-2023-05-25 17:37:58,741 INFO 
+2023-05-25 18:34:13,500 INFO validation fold: 4, mae: 10.695215196464012
+2023-05-25 18:34:13,500 INFO 
 
-2023-05-25 17:37:58,741 INFO ---Finished training---
-2023-05-25 17:37:58,741 INFO Mean of mae over all folds: 2.1151910908938065
-2023-05-25 17:37:58,742 INFO {"learning_rate": 0.022106658441898488, "iterations": 1155}
+2023-05-25 18:34:13,500 INFO ---Finished training---
+2023-05-25 18:34:13,500 INFO Mean of mae over all folds: 10.281361484164753
+2023-05-25 18:34:13,527 INFO 
+
+2023-05-25 18:34:13,527 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:34:17,038 INFO validation fold: 0, mae: 12.726295816976755
+2023-05-25 18:34:17,038 INFO 
+
+2023-05-25 18:34:17,039 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:34:20,510 INFO validation fold: 1, mae: 14.04720698740028
+2023-05-25 18:34:20,510 INFO 
+
+2023-05-25 18:34:20,510 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:34:23,982 INFO validation fold: 2, mae: 14.228794338374607
+2023-05-25 18:34:23,982 INFO 
+
+2023-05-25 18:34:23,982 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:34:27,463 INFO validation fold: 3, mae: 13.240236308295378
+2023-05-25 18:34:27,463 INFO 
+
+2023-05-25 18:34:27,463 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:34:30,927 INFO validation fold: 4, mae: 13.150834600643824
+2023-05-25 18:34:30,927 INFO 
+
+2023-05-25 18:34:30,927 INFO ---Finished training---
+2023-05-25 18:34:30,928 INFO Mean of mae over all folds: 13.478673610338168
+2023-05-25 18:34:30,955 INFO 
+
+2023-05-25 18:34:30,955 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:34:36,977 INFO validation fold: 0, mae: 8.009871016052761
+2023-05-25 18:34:36,978 INFO 
+
+2023-05-25 18:34:36,978 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:34:42,989 INFO validation fold: 1, mae: 10.74379767625151
+2023-05-25 18:34:42,989 INFO 
+
+2023-05-25 18:34:42,989 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:34:49,015 INFO validation fold: 2, mae: 9.413233851421598
+2023-05-25 18:34:49,015 INFO 
+
+2023-05-25 18:34:49,015 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:34:55,040 INFO validation fold: 3, mae: 9.890989083660095
+2023-05-25 18:34:55,040 INFO 
+
+2023-05-25 18:34:55,040 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:35:01,024 INFO validation fold: 4, mae: 10.298679884456432
+2023-05-25 18:35:01,024 INFO 
+
+2023-05-25 18:35:01,024 INFO ---Finished training---
+2023-05-25 18:35:01,024 INFO Mean of mae over all folds: 9.671314302368481
+2023-05-25 18:35:01,051 INFO 
+
+2023-05-25 18:35:01,051 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:35:07,376 INFO validation fold: 0, mae: 8.618804777990807
+2023-05-25 18:35:07,376 INFO 
+
+2023-05-25 18:35:07,376 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:35:13,687 INFO validation fold: 1, mae: 11.022221844610279
+2023-05-25 18:35:13,688 INFO 
+
+2023-05-25 18:35:13,688 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:35:19,988 INFO validation fold: 2, mae: 9.827388129124468
+2023-05-25 18:35:19,988 INFO 
+
+2023-05-25 18:35:19,988 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:35:26,311 INFO validation fold: 3, mae: 9.614742472653097
+2023-05-25 18:35:26,312 INFO 
+
+2023-05-25 18:35:26,312 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:35:32,642 INFO validation fold: 4, mae: 9.821050832461907
+2023-05-25 18:35:32,642 INFO 
+
+2023-05-25 18:35:32,642 INFO ---Finished training---
+2023-05-25 18:35:32,643 INFO Mean of mae over all folds: 9.780841611368112
+2023-05-25 18:35:32,671 INFO 
+
+2023-05-25 18:35:32,671 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:35:38,422 INFO validation fold: 0, mae: 8.679478077163083
+2023-05-25 18:35:38,423 INFO 
+
+2023-05-25 18:35:38,423 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:35:44,191 INFO validation fold: 1, mae: 11.543345148128427
+2023-05-25 18:35:44,192 INFO 
+
+2023-05-25 18:35:44,192 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:35:50,080 INFO validation fold: 2, mae: 9.608600979500812
+2023-05-25 18:35:50,081 INFO 
+
+2023-05-25 18:35:50,081 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:35:56,299 INFO validation fold: 3, mae: 9.41279410733309
+2023-05-25 18:35:56,300 INFO 
+
+2023-05-25 18:35:56,300 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:36:02,686 INFO validation fold: 4, mae: 10.089763610574002
+2023-05-25 18:36:02,687 INFO 
+
+2023-05-25 18:36:02,687 INFO ---Finished training---
+2023-05-25 18:36:02,687 INFO Mean of mae over all folds: 9.866796384539883
+2023-05-25 18:36:02,721 INFO 
+
+2023-05-25 18:36:02,721 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:36:06,957 INFO validation fold: 0, mae: 10.408748483525047
+2023-05-25 18:36:06,958 INFO 
+
+2023-05-25 18:36:06,958 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:36:11,129 INFO validation fold: 1, mae: 11.140173612146553
+2023-05-25 18:36:11,130 INFO 
+
+2023-05-25 18:36:11,130 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:36:15,401 INFO validation fold: 2, mae: 10.147481847020847
+2023-05-25 18:36:15,402 INFO 
+
+2023-05-25 18:36:15,402 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:36:19,538 INFO validation fold: 3, mae: 10.531328018296033
+2023-05-25 18:36:19,539 INFO 
+
+2023-05-25 18:36:19,539 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:36:23,678 INFO validation fold: 4, mae: 11.289957207062175
+2023-05-25 18:36:23,678 INFO 
+
+2023-05-25 18:36:23,678 INFO ---Finished training---
+2023-05-25 18:36:23,678 INFO Mean of mae over all folds: 10.703537833610131
+2023-05-25 18:36:23,712 INFO 
+
+2023-05-25 18:36:23,712 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:36:33,134 INFO validation fold: 0, mae: 9.26812903433619
+2023-05-25 18:36:33,135 INFO 
+
+2023-05-25 18:36:33,135 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:36:38,296 INFO validation fold: 1, mae: 11.196498571719694
+2023-05-25 18:36:38,297 INFO 
+
+2023-05-25 18:36:38,297 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:36:43,476 INFO validation fold: 2, mae: 9.682752983524065
+2023-05-25 18:36:43,476 INFO 
+
+2023-05-25 18:36:43,476 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:36:48,586 INFO validation fold: 3, mae: 10.603308496472817
+2023-05-25 18:36:48,586 INFO 
+
+2023-05-25 18:36:48,586 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:36:53,686 INFO validation fold: 4, mae: 9.890818473294853
+2023-05-25 18:36:53,686 INFO 
+
+2023-05-25 18:36:53,686 INFO ---Finished training---
+2023-05-25 18:36:53,686 INFO Mean of mae over all folds: 10.128301511869523
+2023-05-25 18:36:53,718 INFO 
+
+2023-05-25 18:36:53,718 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:36:57,797 INFO validation fold: 0, mae: 9.923326855846586
+2023-05-25 18:36:57,798 INFO 
+
+2023-05-25 18:36:57,798 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:37:01,855 INFO validation fold: 1, mae: 11.437665636121041
+2023-05-25 18:37:01,855 INFO 
+
+2023-05-25 18:37:01,855 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:37:05,904 INFO validation fold: 2, mae: 10.361835236094382
+2023-05-25 18:37:05,905 INFO 
+
+2023-05-25 18:37:05,905 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:37:10,139 INFO validation fold: 3, mae: 10.266584507842675
+2023-05-25 18:37:10,139 INFO 
+
+2023-05-25 18:37:10,139 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:37:14,203 INFO validation fold: 4, mae: 10.92980137373074
+2023-05-25 18:37:14,203 INFO 
+
+2023-05-25 18:37:14,203 INFO ---Finished training---
+2023-05-25 18:37:14,203 INFO Mean of mae over all folds: 10.583842721927086
+2023-05-25 18:37:14,234 INFO 
+
+2023-05-25 18:37:14,234 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:37:22,295 INFO validation fold: 0, mae: 8.078380194849716
+2023-05-25 18:37:22,295 INFO 
+
+2023-05-25 18:37:22,295 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:37:30,100 INFO validation fold: 1, mae: 10.80650411229194
+2023-05-25 18:37:30,100 INFO 
+
+2023-05-25 18:37:30,101 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:37:37,711 INFO validation fold: 2, mae: 9.559156953446383
+2023-05-25 18:37:37,711 INFO 
+
+2023-05-25 18:37:37,711 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:37:45,043 INFO validation fold: 3, mae: 9.276270424266192
+2023-05-25 18:37:45,043 INFO 
+
+2023-05-25 18:37:45,043 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:37:52,284 INFO validation fold: 4, mae: 9.944905095146806
+2023-05-25 18:37:52,285 INFO 
+
+2023-05-25 18:37:52,285 INFO ---Finished training---
+2023-05-25 18:37:52,285 INFO Mean of mae over all folds: 9.533043356000208
+2023-05-25 18:37:52,315 INFO 
+
+2023-05-25 18:37:52,315 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:37:55,756 INFO validation fold: 0, mae: 8.541662388674077
+2023-05-25 18:37:55,757 INFO 
+
+2023-05-25 18:37:55,757 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:37:59,195 INFO validation fold: 1, mae: 10.719572334731154
+2023-05-25 18:37:59,195 INFO 
+
+2023-05-25 18:37:59,195 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:38:02,630 INFO validation fold: 2, mae: 9.083563429006164
+2023-05-25 18:38:02,630 INFO 
+
+2023-05-25 18:38:02,630 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:38:06,098 INFO validation fold: 3, mae: 9.706684938672444
+2023-05-25 18:38:06,098 INFO 
+
+2023-05-25 18:38:06,098 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:38:09,607 INFO validation fold: 4, mae: 9.962584398554242
+2023-05-25 18:38:09,608 INFO 
+
+2023-05-25 18:38:09,608 INFO ---Finished training---
+2023-05-25 18:38:09,608 INFO Mean of mae over all folds: 9.602813497927617
+2023-05-25 18:38:09,638 INFO 
+
+2023-05-25 18:38:09,638 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:38:13,053 INFO validation fold: 0, mae: 9.517203772062485
+2023-05-25 18:38:13,053 INFO 
+
+2023-05-25 18:38:13,053 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:38:18,335 INFO validation fold: 1, mae: 10.975149564783704
+2023-05-25 18:38:18,338 INFO 
+
+2023-05-25 18:38:18,340 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:38:23,954 INFO validation fold: 2, mae: 10.137352826188634
+2023-05-25 18:38:23,955 INFO 
+
+2023-05-25 18:38:23,955 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:38:27,326 INFO validation fold: 3, mae: 10.34590948489348
+2023-05-25 18:38:27,326 INFO 
+
+2023-05-25 18:38:27,326 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:38:30,724 INFO validation fold: 4, mae: 10.109413834411805
+2023-05-25 18:38:30,724 INFO 
+
+2023-05-25 18:38:30,724 INFO ---Finished training---
+2023-05-25 18:38:30,724 INFO Mean of mae over all folds: 10.217005896468022
+2023-05-25 18:38:30,755 INFO 
+
+2023-05-25 18:38:30,755 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:38:34,293 INFO validation fold: 0, mae: 8.230528766071984
+2023-05-25 18:38:34,293 INFO 
+
+2023-05-25 18:38:34,293 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:38:37,742 INFO validation fold: 1, mae: 10.861463278300603
+2023-05-25 18:38:37,743 INFO 
+
+2023-05-25 18:38:37,743 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:38:41,287 INFO validation fold: 2, mae: 9.82849213638285
+2023-05-25 18:38:41,287 INFO 
+
+2023-05-25 18:38:41,287 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:38:44,713 INFO validation fold: 3, mae: 9.540645701319168
+2023-05-25 18:38:44,714 INFO 
+
+2023-05-25 18:38:44,714 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:38:48,251 INFO validation fold: 4, mae: 10.074130579136737
+2023-05-25 18:38:48,252 INFO 
+
+2023-05-25 18:38:48,252 INFO ---Finished training---
+2023-05-25 18:38:48,252 INFO Mean of mae over all folds: 9.707052092242268
+2023-05-25 18:38:48,285 INFO 
+
+2023-05-25 18:38:48,286 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:38:53,790 INFO validation fold: 0, mae: 8.888520897885737
+2023-05-25 18:38:53,791 INFO 
+
+2023-05-25 18:38:53,791 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:38:59,332 INFO validation fold: 1, mae: 10.727360405889454
+2023-05-25 18:38:59,332 INFO 
+
+2023-05-25 18:38:59,332 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:39:05,178 INFO validation fold: 2, mae: 10.031055932477358
+2023-05-25 18:39:05,179 INFO 
+
+2023-05-25 18:39:05,179 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:39:10,986 INFO validation fold: 3, mae: 9.783822540375645
+2023-05-25 18:39:10,987 INFO 
+
+2023-05-25 18:39:10,987 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:39:16,633 INFO validation fold: 4, mae: 10.046415569108932
+2023-05-25 18:39:16,633 INFO 
+
+2023-05-25 18:39:16,634 INFO ---Finished training---
+2023-05-25 18:39:16,634 INFO Mean of mae over all folds: 9.895435069147425
+2023-05-25 18:39:16,667 INFO 
+
+2023-05-25 18:39:16,667 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:39:24,184 INFO validation fold: 0, mae: 8.082721639935249
+2023-05-25 18:39:24,184 INFO 
+
+2023-05-25 18:39:24,184 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:39:31,425 INFO validation fold: 1, mae: 10.665101995738517
+2023-05-25 18:39:31,425 INFO 
+
+2023-05-25 18:39:31,425 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:39:38,708 INFO validation fold: 2, mae: 9.372777729172954
+2023-05-25 18:39:38,709 INFO 
+
+2023-05-25 18:39:38,709 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:39:45,557 INFO validation fold: 3, mae: 10.029572708531887
+2023-05-25 18:39:45,557 INFO 
+
+2023-05-25 18:39:45,557 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:39:52,721 INFO validation fold: 4, mae: 10.178727758699056
+2023-05-25 18:39:52,721 INFO 
+
+2023-05-25 18:39:52,721 INFO ---Finished training---
+2023-05-25 18:39:52,721 INFO Mean of mae over all folds: 9.665780366415532
+2023-05-25 18:39:52,752 INFO 
+
+2023-05-25 18:39:52,752 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:39:59,705 INFO validation fold: 0, mae: 8.439170547068517
+2023-05-25 18:39:59,705 INFO 
+
+2023-05-25 18:39:59,706 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:40:06,633 INFO validation fold: 1, mae: 10.53690423764255
+2023-05-25 18:40:06,633 INFO 
+
+2023-05-25 18:40:06,633 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:40:13,550 INFO validation fold: 2, mae: 9.702811826377227
+2023-05-25 18:40:13,551 INFO 
+
+2023-05-25 18:40:13,551 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:40:20,793 INFO validation fold: 3, mae: 9.99954825577891
+2023-05-25 18:40:20,794 INFO 
+
+2023-05-25 18:40:20,794 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:40:27,656 INFO validation fold: 4, mae: 10.163443589139556
+2023-05-25 18:40:27,656 INFO 
+
+2023-05-25 18:40:27,656 INFO ---Finished training---
+2023-05-25 18:40:27,656 INFO Mean of mae over all folds: 9.768375691201353
+2023-05-25 18:40:27,696 INFO 
+
+2023-05-25 18:40:27,696 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:40:28,555 INFO validation fold: 0, mae: 12.183076679226893
+2023-05-25 18:40:28,555 INFO 
+
+2023-05-25 18:40:28,555 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:40:29,363 INFO validation fold: 1, mae: 13.285001334802608
+2023-05-25 18:40:29,364 INFO 
+
+2023-05-25 18:40:29,364 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:40:30,240 INFO validation fold: 2, mae: 12.87648608460933
+2023-05-25 18:40:30,240 INFO 
+
+2023-05-25 18:40:30,240 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:40:31,156 INFO validation fold: 3, mae: 11.986625711494007
+2023-05-25 18:40:31,156 INFO 
+
+2023-05-25 18:40:31,156 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:40:32,022 INFO validation fold: 4, mae: 12.572895692699229
+2023-05-25 18:40:32,022 INFO 
+
+2023-05-25 18:40:32,022 INFO ---Finished training---
+2023-05-25 18:40:32,022 INFO Mean of mae over all folds: 12.580817100566412
+2023-05-25 18:40:32,061 INFO 
+
+2023-05-25 18:40:32,061 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:40:36,400 INFO validation fold: 0, mae: 8.639903759873334
+2023-05-25 18:40:36,401 INFO 
+
+2023-05-25 18:40:36,401 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:40:40,852 INFO validation fold: 1, mae: 10.630360889517862
+2023-05-25 18:40:40,853 INFO 
+
+2023-05-25 18:40:40,853 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:40:45,542 INFO validation fold: 2, mae: 9.772328526293622
+2023-05-25 18:40:45,542 INFO 
+
+2023-05-25 18:40:45,542 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:40:50,068 INFO validation fold: 3, mae: 9.916936944247379
+2023-05-25 18:40:50,069 INFO 
+
+2023-05-25 18:40:50,069 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:40:54,675 INFO validation fold: 4, mae: 9.709161059208784
+2023-05-25 18:40:54,675 INFO 
+
+2023-05-25 18:40:54,675 INFO ---Finished training---
+2023-05-25 18:40:54,676 INFO Mean of mae over all folds: 9.733738235828195
+2023-05-25 18:40:54,712 INFO 
+
+2023-05-25 18:40:54,713 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:40:59,817 INFO validation fold: 0, mae: 8.520908905392142
+2023-05-25 18:40:59,818 INFO 
+
+2023-05-25 18:40:59,818 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:41:04,878 INFO validation fold: 1, mae: 11.504186582196517
+2023-05-25 18:41:04,878 INFO 
+
+2023-05-25 18:41:04,878 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:41:09,886 INFO validation fold: 2, mae: 9.40240553583098
+2023-05-25 18:41:09,887 INFO 
+
+2023-05-25 18:41:09,887 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:41:14,732 INFO validation fold: 3, mae: 9.400388271995553
+2023-05-25 18:41:14,733 INFO 
+
+2023-05-25 18:41:14,733 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:41:19,903 INFO validation fold: 4, mae: 9.968352316966856
+2023-05-25 18:41:19,904 INFO 
+
+2023-05-25 18:41:19,904 INFO ---Finished training---
+2023-05-25 18:41:19,904 INFO Mean of mae over all folds: 9.75924832247641
+2023-05-25 18:41:19,940 INFO 
+
+2023-05-25 18:41:19,940 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:41:22,949 INFO validation fold: 0, mae: 8.906488813349103
+2023-05-25 18:41:22,949 INFO 
+
+2023-05-25 18:41:22,949 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:41:25,783 INFO validation fold: 1, mae: 10.38494686409791
+2023-05-25 18:41:25,783 INFO 
+
+2023-05-25 18:41:25,783 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:41:28,805 INFO validation fold: 2, mae: 8.596639594881067
+2023-05-25 18:41:28,806 INFO 
+
+2023-05-25 18:41:28,806 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:41:31,719 INFO validation fold: 3, mae: 9.777644997259046
+2023-05-25 18:41:31,719 INFO 
+
+2023-05-25 18:41:31,720 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:41:34,582 INFO validation fold: 4, mae: 10.277384866010316
+2023-05-25 18:41:34,582 INFO 
+
+2023-05-25 18:41:34,582 INFO ---Finished training---
+2023-05-25 18:41:34,583 INFO Mean of mae over all folds: 9.588621027119489
+2023-05-25 18:41:34,621 INFO 
+
+2023-05-25 18:41:34,621 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:41:37,571 INFO validation fold: 0, mae: 9.474785751261265
+2023-05-25 18:41:37,571 INFO 
+
+2023-05-25 18:41:37,571 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:41:40,342 INFO validation fold: 1, mae: 11.950926943592394
+2023-05-25 18:41:40,343 INFO 
+
+2023-05-25 18:41:40,343 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:41:43,176 INFO validation fold: 2, mae: 9.885137329777148
+2023-05-25 18:41:43,177 INFO 
+
+2023-05-25 18:41:43,177 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:41:45,977 INFO validation fold: 3, mae: 10.224913147482999
+2023-05-25 18:41:45,978 INFO 
+
+2023-05-25 18:41:45,978 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:41:48,887 INFO validation fold: 4, mae: 10.964311865383467
+2023-05-25 18:41:48,887 INFO 
+
+2023-05-25 18:41:48,887 INFO ---Finished training---
+2023-05-25 18:41:48,887 INFO Mean of mae over all folds: 10.500015007499453
+2023-05-25 18:41:48,922 INFO 
+
+2023-05-25 18:41:48,922 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:41:50,569 INFO validation fold: 0, mae: 9.188671206282521
+2023-05-25 18:41:50,570 INFO 
+
+2023-05-25 18:41:50,570 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:41:52,356 INFO validation fold: 1, mae: 11.471766845178564
+2023-05-25 18:41:52,357 INFO 
+
+2023-05-25 18:41:52,357 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:41:54,118 INFO validation fold: 2, mae: 9.652352859643393
+2023-05-25 18:41:54,118 INFO 
+
+2023-05-25 18:41:54,118 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:41:55,887 INFO validation fold: 3, mae: 10.045989623792703
+2023-05-25 18:41:55,887 INFO 
+
+2023-05-25 18:41:55,887 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:41:57,598 INFO validation fold: 4, mae: 10.13858306873813
+2023-05-25 18:41:57,598 INFO 
+
+2023-05-25 18:41:57,598 INFO ---Finished training---
+2023-05-25 18:41:57,598 INFO Mean of mae over all folds: 10.09947272072706
+2023-05-25 18:41:57,633 INFO 
+
+2023-05-25 18:41:57,634 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:41:59,560 INFO validation fold: 0, mae: 9.849542156139941
+2023-05-25 18:41:59,561 INFO 
+
+2023-05-25 18:41:59,561 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:42:01,475 INFO validation fold: 1, mae: 11.68318130242709
+2023-05-25 18:42:01,475 INFO 
+
+2023-05-25 18:42:01,475 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:42:03,340 INFO validation fold: 2, mae: 10.492447853093838
+2023-05-25 18:42:03,340 INFO 
+
+2023-05-25 18:42:03,340 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:42:05,230 INFO validation fold: 3, mae: 10.067614181816566
+2023-05-25 18:42:05,230 INFO 
+
+2023-05-25 18:42:05,230 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:42:06,993 INFO validation fold: 4, mae: 10.48303723963716
+2023-05-25 18:42:06,993 INFO 
+
+2023-05-25 18:42:06,993 INFO ---Finished training---
+2023-05-25 18:42:06,993 INFO Mean of mae over all folds: 10.515164546622918
+2023-05-25 18:42:07,027 INFO 
+
+2023-05-25 18:42:07,027 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:42:10,414 INFO validation fold: 0, mae: 8.895087739716532
+2023-05-25 18:42:10,414 INFO 
+
+2023-05-25 18:42:10,414 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:42:13,917 INFO validation fold: 1, mae: 10.52602480333349
+2023-05-25 18:42:13,917 INFO 
+
+2023-05-25 18:42:13,917 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:42:17,436 INFO validation fold: 2, mae: 8.768772269440294
+2023-05-25 18:42:17,436 INFO 
+
+2023-05-25 18:42:17,436 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:42:21,219 INFO validation fold: 3, mae: 9.739171299767461
+2023-05-25 18:42:21,219 INFO 
+
+2023-05-25 18:42:21,219 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:42:25,110 INFO validation fold: 4, mae: 9.87807702357325
+2023-05-25 18:42:25,110 INFO 
+
+2023-05-25 18:42:25,110 INFO ---Finished training---
+2023-05-25 18:42:25,110 INFO Mean of mae over all folds: 9.561426627166204
+2023-05-25 18:42:25,156 INFO 
+
+2023-05-25 18:42:25,156 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:42:28,648 INFO validation fold: 0, mae: 9.126598335462417
+2023-05-25 18:42:28,649 INFO 
+
+2023-05-25 18:42:28,649 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:42:32,167 INFO validation fold: 1, mae: 10.582397624406145
+2023-05-25 18:42:32,168 INFO 
+
+2023-05-25 18:42:32,168 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:42:35,767 INFO validation fold: 2, mae: 8.718860733856937
+2023-05-25 18:42:35,767 INFO 
+
+2023-05-25 18:42:35,767 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:42:39,448 INFO validation fold: 3, mae: 9.82394428947609
+2023-05-25 18:42:39,449 INFO 
+
+2023-05-25 18:42:39,449 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:42:42,893 INFO validation fold: 4, mae: 10.16528103413454
+2023-05-25 18:42:42,893 INFO 
+
+2023-05-25 18:42:42,894 INFO ---Finished training---
+2023-05-25 18:42:42,894 INFO Mean of mae over all folds: 9.683416403467225
+2023-05-25 18:42:42,932 INFO 
+
+2023-05-25 18:42:42,932 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:42:47,495 INFO validation fold: 0, mae: 8.066368310272278
+2023-05-25 18:42:47,496 INFO 
+
+2023-05-25 18:42:47,496 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:42:51,919 INFO validation fold: 1, mae: 10.560677479830177
+2023-05-25 18:42:51,920 INFO 
+
+2023-05-25 18:42:51,920 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:42:56,157 INFO validation fold: 2, mae: 9.489694568496898
+2023-05-25 18:42:56,157 INFO 
+
+2023-05-25 18:42:56,158 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:43:00,370 INFO validation fold: 3, mae: 9.818489103254638
+2023-05-25 18:43:00,371 INFO 
+
+2023-05-25 18:43:00,371 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:43:04,681 INFO validation fold: 4, mae: 9.39834678814224
+2023-05-25 18:43:04,681 INFO 
+
+2023-05-25 18:43:04,681 INFO ---Finished training---
+2023-05-25 18:43:04,681 INFO Mean of mae over all folds: 9.466715249999247
+2023-05-25 18:43:04,719 INFO 
+
+2023-05-25 18:43:04,719 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:43:07,871 INFO validation fold: 0, mae: 8.888768028648261
+2023-05-25 18:43:07,871 INFO 
+
+2023-05-25 18:43:07,871 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:43:11,053 INFO validation fold: 1, mae: 10.841480574579919
+2023-05-25 18:43:11,054 INFO 
+
+2023-05-25 18:43:11,054 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:43:14,356 INFO validation fold: 2, mae: 9.019851259929805
+2023-05-25 18:43:14,356 INFO 
+
+2023-05-25 18:43:14,356 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:43:17,876 INFO validation fold: 3, mae: 9.984993941597226
+2023-05-25 18:43:17,877 INFO 
+
+2023-05-25 18:43:17,877 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:43:21,505 INFO validation fold: 4, mae: 10.647971744900472
+2023-05-25 18:43:21,505 INFO 
+
+2023-05-25 18:43:21,505 INFO ---Finished training---
+2023-05-25 18:43:21,505 INFO Mean of mae over all folds: 9.876613109931137
+2023-05-25 18:43:21,542 INFO 
+
+2023-05-25 18:43:21,542 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:43:26,590 INFO validation fold: 0, mae: 9.499558923340832
+2023-05-25 18:43:26,591 INFO 
+
+2023-05-25 18:43:26,591 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:43:31,912 INFO validation fold: 1, mae: 10.887610780916326
+2023-05-25 18:43:31,913 INFO 
+
+2023-05-25 18:43:31,913 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:43:36,973 INFO validation fold: 2, mae: 9.048494868751343
+2023-05-25 18:43:36,974 INFO 
+
+2023-05-25 18:43:36,974 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:43:42,072 INFO validation fold: 3, mae: 9.605887521426736
+2023-05-25 18:43:42,073 INFO 
+
+2023-05-25 18:43:42,073 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:43:47,505 INFO validation fold: 4, mae: 10.151406054130087
+2023-05-25 18:43:47,506 INFO 
+
+2023-05-25 18:43:47,506 INFO ---Finished training---
+2023-05-25 18:43:47,506 INFO Mean of mae over all folds: 9.838591629713065
+2023-05-25 18:43:47,541 INFO 
+
+2023-05-25 18:43:47,541 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:43:52,664 INFO validation fold: 0, mae: 10.148891827117005
+2023-05-25 18:43:52,665 INFO 
+
+2023-05-25 18:43:52,665 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:43:58,113 INFO validation fold: 1, mae: 12.132433475743886
+2023-05-25 18:43:58,113 INFO 
+
+2023-05-25 18:43:58,113 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:44:03,422 INFO validation fold: 2, mae: 10.486263729155922
+2023-05-25 18:44:03,422 INFO 
+
+2023-05-25 18:44:03,422 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:44:08,797 INFO validation fold: 3, mae: 10.720448594701681
+2023-05-25 18:44:08,797 INFO 
+
+2023-05-25 18:44:08,797 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:44:14,046 INFO validation fold: 4, mae: 11.76260991337273
+2023-05-25 18:44:14,046 INFO 
+
+2023-05-25 18:44:14,046 INFO ---Finished training---
+2023-05-25 18:44:14,046 INFO Mean of mae over all folds: 11.050129508018244
+2023-05-25 18:44:14,084 INFO 
+
+2023-05-25 18:44:14,084 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:44:15,806 INFO validation fold: 0, mae: 9.556402263320898
+2023-05-25 18:44:15,807 INFO 
+
+2023-05-25 18:44:15,807 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:44:17,447 INFO validation fold: 1, mae: 11.695497848043358
+2023-05-25 18:44:17,447 INFO 
+
+2023-05-25 18:44:17,447 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:44:19,085 INFO validation fold: 2, mae: 11.611860523918095
+2023-05-25 18:44:19,085 INFO 
+
+2023-05-25 18:44:19,085 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:44:20,669 INFO validation fold: 3, mae: 10.23452206843983
+2023-05-25 18:44:20,670 INFO 
+
+2023-05-25 18:44:20,670 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:44:22,219 INFO validation fold: 4, mae: 10.882247549652341
+2023-05-25 18:44:22,219 INFO 
+
+2023-05-25 18:44:22,219 INFO ---Finished training---
+2023-05-25 18:44:22,219 INFO Mean of mae over all folds: 10.796106050674904
+2023-05-25 18:44:22,255 INFO 
+
+2023-05-25 18:44:22,255 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:44:22,849 INFO validation fold: 0, mae: 9.546236827504124
+2023-05-25 18:44:22,850 INFO 
+
+2023-05-25 18:44:22,850 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:44:23,440 INFO validation fold: 1, mae: 12.243998008053582
+2023-05-25 18:44:23,440 INFO 
+
+2023-05-25 18:44:23,440 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:44:24,053 INFO validation fold: 2, mae: 10.766958962411444
+2023-05-25 18:44:24,053 INFO 
+
+2023-05-25 18:44:24,053 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:44:24,682 INFO validation fold: 3, mae: 10.64310913655562
+2023-05-25 18:44:24,683 INFO 
+
+2023-05-25 18:44:24,683 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:44:25,305 INFO validation fold: 4, mae: 10.679648783767384
+2023-05-25 18:44:25,305 INFO 
+
+2023-05-25 18:44:25,305 INFO ---Finished training---
+2023-05-25 18:44:25,305 INFO Mean of mae over all folds: 10.775990343658432
+2023-05-25 18:44:25,343 INFO 
+
+2023-05-25 18:44:25,343 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:44:28,780 INFO validation fold: 0, mae: 8.574232731693057
+2023-05-25 18:44:28,780 INFO 
+
+2023-05-25 18:44:28,780 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:44:32,462 INFO validation fold: 1, mae: 11.151142546966721
+2023-05-25 18:44:32,463 INFO 
+
+2023-05-25 18:44:32,463 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:44:36,135 INFO validation fold: 2, mae: 10.114730167814201
+2023-05-25 18:44:36,135 INFO 
+
+2023-05-25 18:44:36,135 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:44:39,673 INFO validation fold: 3, mae: 10.198574898952822
+2023-05-25 18:44:39,673 INFO 
+
+2023-05-25 18:44:39,673 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:44:43,395 INFO validation fold: 4, mae: 10.689263243107526
+2023-05-25 18:44:43,395 INFO 
+
+2023-05-25 18:44:43,395 INFO ---Finished training---
+2023-05-25 18:44:43,395 INFO Mean of mae over all folds: 10.145588717706865
+2023-05-25 18:44:43,447 INFO 
+
+2023-05-25 18:44:43,447 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:44:45,734 INFO validation fold: 0, mae: 8.755225886675685
+2023-05-25 18:44:45,734 INFO 
+
+2023-05-25 18:44:45,734 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:44:47,931 INFO validation fold: 1, mae: 11.564493738601353
+2023-05-25 18:44:47,931 INFO 
+
+2023-05-25 18:44:47,931 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:44:50,037 INFO validation fold: 2, mae: 9.306412051693647
+2023-05-25 18:44:50,038 INFO 
+
+2023-05-25 18:44:50,038 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:44:52,231 INFO validation fold: 3, mae: 9.832645482753422
+2023-05-25 18:44:52,231 INFO 
+
+2023-05-25 18:44:52,231 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:44:54,376 INFO validation fold: 4, mae: 10.274542538800729
+2023-05-25 18:44:54,376 INFO 
+
+2023-05-25 18:44:54,376 INFO ---Finished training---
+2023-05-25 18:44:54,377 INFO Mean of mae over all folds: 9.946663939704967
+2023-05-25 18:44:54,422 INFO 
+
+2023-05-25 18:44:54,423 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:44:58,404 INFO validation fold: 0, mae: 8.679923658194111
+2023-05-25 18:44:58,405 INFO 
+
+2023-05-25 18:44:58,405 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:45:02,292 INFO validation fold: 1, mae: 10.542486704604043
+2023-05-25 18:45:02,293 INFO 
+
+2023-05-25 18:45:02,293 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:45:06,102 INFO validation fold: 2, mae: 9.145655920297715
+2023-05-25 18:45:06,102 INFO 
+
+2023-05-25 18:45:06,102 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:45:09,918 INFO validation fold: 3, mae: 9.53964064388045
+2023-05-25 18:45:09,919 INFO 
+
+2023-05-25 18:45:09,919 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:45:13,669 INFO validation fold: 4, mae: 10.128021935139769
+2023-05-25 18:45:13,670 INFO 
+
+2023-05-25 18:45:13,670 INFO ---Finished training---
+2023-05-25 18:45:13,670 INFO Mean of mae over all folds: 9.607145772423218
+2023-05-25 18:45:13,718 INFO 
+
+2023-05-25 18:45:13,719 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:45:15,813 INFO validation fold: 0, mae: 8.926021798709462
+2023-05-25 18:45:15,813 INFO 
+
+2023-05-25 18:45:15,813 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:45:17,988 INFO validation fold: 1, mae: 10.646044309414854
+2023-05-25 18:45:17,988 INFO 
+
+2023-05-25 18:45:17,988 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:45:20,052 INFO validation fold: 2, mae: 9.03823896586875
+2023-05-25 18:45:20,052 INFO 
+
+2023-05-25 18:45:20,052 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:45:22,166 INFO validation fold: 3, mae: 9.55841207185599
+2023-05-25 18:45:22,167 INFO 
+
+2023-05-25 18:45:22,167 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:45:24,238 INFO validation fold: 4, mae: 10.177364894247482
+2023-05-25 18:45:24,239 INFO 
+
+2023-05-25 18:45:24,239 INFO ---Finished training---
+2023-05-25 18:45:24,239 INFO Mean of mae over all folds: 9.669216408019308
+2023-05-25 18:45:24,279 INFO 
+
+2023-05-25 18:45:24,279 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:45:27,664 INFO validation fold: 0, mae: 8.433766752040206
+2023-05-25 18:45:27,665 INFO 
+
+2023-05-25 18:45:27,665 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:45:30,964 INFO validation fold: 1, mae: 11.180843566540137
+2023-05-25 18:45:30,964 INFO 
+
+2023-05-25 18:45:30,964 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:45:34,592 INFO validation fold: 2, mae: 9.904613898846693
+2023-05-25 18:45:34,592 INFO 
+
+2023-05-25 18:45:34,593 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:45:37,966 INFO validation fold: 3, mae: 9.679591009098964
+2023-05-25 18:45:37,966 INFO 
+
+2023-05-25 18:45:37,966 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:45:41,165 INFO validation fold: 4, mae: 9.945512037022707
+2023-05-25 18:45:41,165 INFO 
+
+2023-05-25 18:45:41,165 INFO ---Finished training---
+2023-05-25 18:45:41,165 INFO Mean of mae over all folds: 9.828865452709742
+2023-05-25 18:45:41,204 INFO 
+
+2023-05-25 18:45:41,205 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:45:42,044 INFO validation fold: 0, mae: 8.291637169466348
+2023-05-25 18:45:42,044 INFO 
+
+2023-05-25 18:45:42,044 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:45:42,902 INFO validation fold: 1, mae: 10.543737184595729
+2023-05-25 18:45:42,902 INFO 
+
+2023-05-25 18:45:42,902 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:45:43,756 INFO validation fold: 2, mae: 9.109589964927803
+2023-05-25 18:45:43,756 INFO 
+
+2023-05-25 18:45:43,756 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:45:44,596 INFO validation fold: 3, mae: 9.84787188689553
+2023-05-25 18:45:44,596 INFO 
+
+2023-05-25 18:45:44,596 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:45:45,416 INFO validation fold: 4, mae: 9.701198124642511
+2023-05-25 18:45:45,417 INFO 
+
+2023-05-25 18:45:45,417 INFO ---Finished training---
+2023-05-25 18:45:45,417 INFO Mean of mae over all folds: 9.498806866105584
+2023-05-25 18:45:45,458 INFO 
+
+2023-05-25 18:45:45,458 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:45:46,441 INFO validation fold: 0, mae: 8.974981229597978
+2023-05-25 18:45:46,442 INFO 
+
+2023-05-25 18:45:46,442 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:45:47,380 INFO validation fold: 1, mae: 10.793446451909038
+2023-05-25 18:45:47,380 INFO 
+
+2023-05-25 18:45:47,380 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:45:48,360 INFO validation fold: 2, mae: 9.737477204729206
+2023-05-25 18:45:48,361 INFO 
+
+2023-05-25 18:45:48,361 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:45:49,398 INFO validation fold: 3, mae: 10.297674677715936
+2023-05-25 18:45:49,399 INFO 
+
+2023-05-25 18:45:49,399 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:45:50,328 INFO validation fold: 4, mae: 10.044345315138768
+2023-05-25 18:45:50,328 INFO 
+
+2023-05-25 18:45:50,328 INFO ---Finished training---
+2023-05-25 18:45:50,328 INFO Mean of mae over all folds: 9.969584975818185
+2023-05-25 18:45:50,368 INFO 
+
+2023-05-25 18:45:50,368 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:45:52,181 INFO validation fold: 0, mae: 8.9240781299116
+2023-05-25 18:45:52,181 INFO 
+
+2023-05-25 18:45:52,181 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:45:53,990 INFO validation fold: 1, mae: 11.180789177319754
+2023-05-25 18:45:53,990 INFO 
+
+2023-05-25 18:45:53,991 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:45:56,015 INFO validation fold: 2, mae: 9.094430892436247
+2023-05-25 18:45:56,016 INFO 
+
+2023-05-25 18:45:56,016 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:45:58,039 INFO validation fold: 3, mae: 10.12748309862735
+2023-05-25 18:45:58,040 INFO 
+
+2023-05-25 18:45:58,040 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:45:59,997 INFO validation fold: 4, mae: 9.974279308677726
+2023-05-25 18:45:59,997 INFO 
+
+2023-05-25 18:45:59,997 INFO ---Finished training---
+2023-05-25 18:45:59,998 INFO Mean of mae over all folds: 9.860212121394534
+2023-05-25 18:46:00,041 INFO 
+
+2023-05-25 18:46:00,042 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:46:01,484 INFO validation fold: 0, mae: 8.362897678046862
+2023-05-25 18:46:01,485 INFO 
+
+2023-05-25 18:46:01,485 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:46:02,929 INFO validation fold: 1, mae: 10.661624191300184
+2023-05-25 18:46:02,929 INFO 
+
+2023-05-25 18:46:02,929 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:46:04,528 INFO validation fold: 2, mae: 9.642743338864227
+2023-05-25 18:46:04,528 INFO 
+
+2023-05-25 18:46:04,528 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:46:05,886 INFO validation fold: 3, mae: 9.904330550316406
+2023-05-25 18:46:05,886 INFO 
+
+2023-05-25 18:46:05,886 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:46:07,216 INFO validation fold: 4, mae: 10.51334247567124
+2023-05-25 18:46:07,217 INFO 
+
+2023-05-25 18:46:07,217 INFO ---Finished training---
+2023-05-25 18:46:07,217 INFO Mean of mae over all folds: 9.816987646839783
+2023-05-25 18:46:07,254 INFO 
+
+2023-05-25 18:46:07,254 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:46:11,341 INFO validation fold: 0, mae: 8.530501597717501
+2023-05-25 18:46:11,341 INFO 
+
+2023-05-25 18:46:11,341 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:46:15,473 INFO validation fold: 1, mae: 10.928964851377728
+2023-05-25 18:46:15,474 INFO 
+
+2023-05-25 18:46:15,474 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:46:19,558 INFO validation fold: 2, mae: 9.425371869432205
+2023-05-25 18:46:19,559 INFO 
+
+2023-05-25 18:46:19,559 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:46:24,010 INFO validation fold: 3, mae: 9.308519904323662
+2023-05-25 18:46:24,011 INFO 
+
+2023-05-25 18:46:24,011 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:46:28,736 INFO validation fold: 4, mae: 10.108068306758245
+2023-05-25 18:46:28,736 INFO 
+
+2023-05-25 18:46:28,736 INFO ---Finished training---
+2023-05-25 18:46:28,737 INFO Mean of mae over all folds: 9.66028530592187
+2023-05-25 18:46:28,778 INFO 
+
+2023-05-25 18:46:28,778 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 0---
+
+2023-05-25 18:46:31,855 INFO validation fold: 0, mae: 10.842876272033386
+2023-05-25 18:46:31,855 INFO 
+
+2023-05-25 18:46:31,855 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 1---
+
+2023-05-25 18:46:34,864 INFO validation fold: 1, mae: 12.604918238553926
+2023-05-25 18:46:34,865 INFO 
+
+2023-05-25 18:46:34,865 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 2---
+
+2023-05-25 18:46:38,023 INFO validation fold: 2, mae: 11.21435102124551
+2023-05-25 18:46:38,024 INFO 
+
+2023-05-25 18:46:38,024 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 3---
+
+2023-05-25 18:46:41,585 INFO validation fold: 3, mae: 10.879765665499146
+2023-05-25 18:46:41,586 INFO 
+
+2023-05-25 18:46:41,586 INFO ---Perfoming cross-validation training/evaluating. Evaluating fold 4---
+
+2023-05-25 18:46:44,808 INFO validation fold: 4, mae: 11.843574936360955
+2023-05-25 18:46:44,809 INFO 
+
+2023-05-25 18:46:44,809 INFO ---Finished training---
+2023-05-25 18:46:44,809 INFO Mean of mae over all folds: 11.477097226738584
+2023-05-25 18:46:44,811 INFO {"learning_rate": 0.037434655264183686, "iterations": 544, "leaf_estimation_iterations": 1199, "l2_leaf_reg": 0.00745580148086568, "random_strength": 0.09993088974568538, "rsm": 0.08182472756328776, "min_data_in_leaf": 678, "depth": 3, "model_size_reg": 0.08334710730896162}

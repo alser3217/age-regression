@@ -1,1 +1,1 @@
-{"learning_rate": 0.022106658441898488, "iterations": 1155}
+{"learning_rate": 0.037434655264183686, "iterations": 544, "leaf_estimation_iterations": 1199, "l2_leaf_reg": 0.00745580148086568, "random_strength": 0.09993088974568538, "rsm": 0.08182472756328776, "min_data_in_leaf": 678, "depth": 3, "model_size_reg": 0.08334710730896162}

@@ -1,1 +1,1 @@
-{"learning_rate": 0.010953147490408254, "n_estimators": 385}
+{"learning_rate": 0.0560979528749417, "n_estimators": 704, "num_leaves": 585, "max_depth": 6, "min_child_weight": 0.03344444768119558, "min_child_samples": 100}

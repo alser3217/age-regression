@@ -10,6 +10,8 @@ import torch.nn as nn
 from utilities import create_stratified_folds, MyNeuralNetwork, ImmunologyDataset, train, test, setup_logger, train_test_fit_like_models
 from torch.utils.data import DataLoader
 
+from sklearn.linear_model import ElasticNet
+
 import json
 
 from catboost import CatBoostRegressor
@@ -67,9 +69,9 @@ def main():
     model = args['model']
 
     formatter = log.Formatter('%(asctime)s %(levelname)s %(message)s')
-    result = setup_logger('result', './logs/results/' + model + '.log', formatter, 'stdout')
+    result = setup_logger('result', '../logs/results/' + model + '.log', formatter, 'stdout')
 
-    immunology = pd.read_excel('./data/media-1.xlsx', skiprows=1)
+    immunology = pd.read_excel('../data/media-1.xlsx', skiprows=1)
     immunology.drop(['index'], axis=1, inplace=True)
     immunology['Sex'].replace(['M', 'F'], [1, 0], inplace=True)
     features = immunology.columns[:-1]
@@ -78,7 +80,7 @@ def main():
 
     create_stratified_folds(immunology, target_name, n_s=6, n_grp=5)
 
-    with open('./logs/params/' + model + '.log', 'r') as f:
+    with open('../logs/params/' + model + '.log', 'r') as f:
         data = f.read()
 
     params = json.loads(data)
@@ -95,9 +97,10 @@ def main():
         rgs = LGBMRegressor(**params)
     elif model == 'xgboost':
         rgs = XGBRegressor(**params)
+    elif model == 'elasticnet':
+        rgs = ElasticNet(**params)
 
     train_test_fit_like_models(rgs, X_train, y_train, X_test, y_test, result)
-
 
 if __name__ == "__main__":
     main()

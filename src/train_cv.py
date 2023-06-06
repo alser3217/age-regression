@@ -11,7 +11,7 @@ import torch.nn as nn
 
 import optuna
 
-from utilities import create_stratified_folds, cv_train_eval, setup_logger, train_cv_catboost, train_cv_lightgbm, train_cv_xgboost
+from utilities import create_stratified_folds, cv_train_eval, setup_logger, train_cv_catboost, train_cv_lightgbm, train_cv_xgboost, train_cv_elasticnet
 
 import json
 
@@ -57,7 +57,13 @@ def objective(trial, dataset, features, target, criterion, model_type, debug, de
             'reg_lambda':   trial.suggest_float('reg_lambda', 1e-6, 1e-1)
         }
         loss = train_cv_xgboost(dataset, features, target, params, debug)
-
+    elif model_type == 'elasticnet':
+        params = {
+            'alpha': trial.suggest_float('alpha', 1e-6, 1e-1),
+            'l1_ratio':   trial.suggest_float('l1_ratio', 1e-6, 1e-1),
+            'max_iter':   trial.suggest_int('max_iter', 100, 1500)
+        }
+        loss = train_cv_elasticnet(dataset, features, target, params, debug)
     else:
         loss = cv_train_eval(dataset, features, target, params, criterion, debug, device)
 
@@ -71,10 +77,10 @@ def main():
     model = args['model']
 
     formatter = log.Formatter('%(asctime)s %(levelname)s %(message)s')
-    debug = setup_logger('debug', './logs/debug/' + model + '.log', formatter, 'stdout')
+    debug = setup_logger('debug', '../logs/debug/' + model + '.log', formatter, 'stdout')
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    immunology = pd.read_excel('./data/media-1.xlsx', skiprows=1)
+    immunology = pd.read_excel('../data/media-1.xlsx', skiprows=1)
     immunology.drop(['index'], axis=1, inplace=True)
     immunology['Sex'].replace(['M', 'F'], [1, 0], inplace=True)
     features = immunology.columns[:-1]
@@ -91,7 +97,7 @@ def main():
     best_trial = study.best_trial
 
     formatter = log.Formatter('%(message)s')
-    params = setup_logger('debug', './logs/params/' + model + '.log', formatter, 'params')
+    params = setup_logger('debug', '../logs/params/' + model + '.log', formatter, 'params')
     params.info(json.dumps(best_trial.params))
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ import pandas as pd
 
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import StratifiedKFold, train_test_split
+from sklearn.linear_model import ElasticNet
 
 import torch
 from torch import nn
@@ -311,6 +312,38 @@ def train_cv_xgboost(dataset, features, target, params, logger):
         logger.info(results)
 
         mean_maes.append(results)
+
+        logger.info(f'validation fold: {i}, mae: {mean_maes[i]}')                        
+    logger.info('\n')
+    logger.info('---Finished training---')
+    logger.info(f'Mean of mae over all folds: {np.mean(mean_maes)}')
+
+    return np.mean(mean_maes)
+
+def train_cv_elasticnet(dataset, features, target, params, logger):
+
+    mean_maes = []
+
+    train_eval_folds = [i for i in range(dataset['Fold'].max())]
+    for i in train_eval_folds:
+
+        rgs = ElasticNet(**params)
+
+        logger.info('\n')
+        logger.info(f'---Perfoming cross-validation training/evaluating. Evaluating fold {i}---\n')
+        X_train = dataset[features].loc[dataset['Fold'] != i & (dataset['Fold'] != dataset['Fold'].max())]
+        y_train = dataset[target].loc[dataset['Fold'] != i & (dataset['Fold'] != dataset['Fold'].max())]
+
+        X_val = dataset[features].loc[dataset['Fold'] == i]
+        y_val = dataset[target].loc[dataset['Fold'] == i]
+
+        rgs.fit(X_train, y_train)
+
+        results = rgs.predict(X_val)
+
+        logger.info(results)
+
+        mean_maes.append(mean_absolute_error(y_val, results))
 
         logger.info(f'validation fold: {i}, mae: {mean_maes[i]}')                        
     logger.info('\n')
